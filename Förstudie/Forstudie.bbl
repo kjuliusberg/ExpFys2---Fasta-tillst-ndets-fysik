@@ -1,0 +1,153 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Hofmann}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=8276febed1a3679d567b111f66486a6d}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH}%
+      }
+      \strng{namehash}{8276febed1a3679d567b111f66486a6d}
+      \strng{fullhash}{8276febed1a3679d567b111f66486a6d}
+      \strng{fullhashraw}{8276febed1a3679d567b111f66486a6d}
+      \strng{bibnamehash}{8276febed1a3679d567b111f66486a6d}
+      \strng{authorbibnamehash}{8276febed1a3679d567b111f66486a6d}
+      \strng{authornamehash}{8276febed1a3679d567b111f66486a6d}
+      \strng{authorfullhash}{8276febed1a3679d567b111f66486a6d}
+      \strng{authorfullhashraw}{8276febed1a3679d567b111f66486a6d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Solid State Physics: An Introduction}
+      \field{year}{2022}
+    \endentry
+    \entry{Transmission}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=2f20805305fc99fc421814b9f9cc3d56}{%
+           family={Trento},
+           familyi={T\bibinitperiod},
+           given={Chin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f20805305fc99fc421814b9f9cc3d56}
+      \strng{fullhash}{2f20805305fc99fc421814b9f9cc3d56}
+      \strng{fullhashraw}{2f20805305fc99fc421814b9f9cc3d56}
+      \strng{bibnamehash}{2f20805305fc99fc421814b9f9cc3d56}
+      \strng{authorbibnamehash}{2f20805305fc99fc421814b9f9cc3d56}
+      \strng{authornamehash}{2f20805305fc99fc421814b9f9cc3d56}
+      \strng{authorfullhash}{2f20805305fc99fc421814b9f9cc3d56}
+      \strng{authorfullhashraw}{2f20805305fc99fc421814b9f9cc3d56}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Transmittance}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.samaterials.com/blog/introduction-to-transmittance.html
+      \endverb
+      \verb{url}
+      \verb https://www.samaterials.com/blog/introduction-to-transmittance.html
+      \endverb
+    \endentry
+    \entry{X-raylabbPM}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3e08d3dd4a8e2903e2f23c162bf0aac6}{%
+           family={Ryberg},
+           familyi={R\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Chalmers Tekniska Högskola}%
+      }
+      \strng{namehash}{3e08d3dd4a8e2903e2f23c162bf0aac6}
+      \strng{fullhash}{3e08d3dd4a8e2903e2f23c162bf0aac6}
+      \strng{fullhashraw}{3e08d3dd4a8e2903e2f23c162bf0aac6}
+      \strng{bibnamehash}{3e08d3dd4a8e2903e2f23c162bf0aac6}
+      \strng{authorbibnamehash}{3e08d3dd4a8e2903e2f23c162bf0aac6}
+      \strng{authornamehash}{3e08d3dd4a8e2903e2f23c162bf0aac6}
+      \strng{authorfullhash}{3e08d3dd4a8e2903e2f23c162bf0aac6}
+      \strng{authorfullhashraw}{3e08d3dd4a8e2903e2f23c162bf0aac6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Strukturbestämning med röntgen}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://chalmers.instructure.com/courses/36957/files/folder/Fasta%20tillst%C3%A5ndet/Litteratur?preview=4466962
+      \endverb
+      \verb{url}
+      \verb https://chalmers.instructure.com/courses/36957/files/folder/Fasta%20tillst%C3%A5ndet/Litteratur?preview=4466962
+      \endverb
+    \endentry
+    \entry{physics_handbook}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=99e0ead5b129cf84b6ab0e03d4462998}{%
+           family={Nordling},
+           familyi={N\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9f6d06cbd8c0ad03149b4be7d5a53b95}{%
+           family={Österman},
+           familyi={Ö\bibinitperiod},
+           given={Jonny},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Studentlitteratur}%
+      }
+      \strng{namehash}{9e0e90b58b9ac056923adf03d6e79f76}
+      \strng{fullhash}{9e0e90b58b9ac056923adf03d6e79f76}
+      \strng{fullhashraw}{9e0e90b58b9ac056923adf03d6e79f76}
+      \strng{bibnamehash}{9e0e90b58b9ac056923adf03d6e79f76}
+      \strng{authorbibnamehash}{9e0e90b58b9ac056923adf03d6e79f76}
+      \strng{authornamehash}{9e0e90b58b9ac056923adf03d6e79f76}
+      \strng{authorfullhash}{9e0e90b58b9ac056923adf03d6e79f76}
+      \strng{authorfullhashraw}{9e0e90b58b9ac056923adf03d6e79f76}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{title}{Physics handbook: For science and engineering}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

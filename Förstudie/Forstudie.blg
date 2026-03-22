@@ -1,0 +1,14 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'Forstudie.blg'
+[93] biber-MSWIN64:340> INFO - === 
+[140] Biber.pm:420> INFO - Reading 'Forstudie.bcf'
+[235] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
+[246] Biber.pm:4463> INFO - Processing section 0
+[255] Biber.pm:4654> INFO - Looking for bibtex file '../references.bib' for section 0
+[328] bibtex.pm:1713> INFO - LaTeX decoding ...
+[334] bibtex.pm:1519> INFO - Found BibTeX data source '../references.bib'
+[379] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[379] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[379] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'sv-SE'
+[387] bbl.pm:676> INFO - Writing 'Forstudie.bbl' with encoding 'UTF-8'
+[388] bbl.pm:779> INFO - Output to Forstudie.bbl
