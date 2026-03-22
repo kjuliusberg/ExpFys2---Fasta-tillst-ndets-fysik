@@ -1,13 +1,12 @@
 # Fdb version 4
-["biber Slutrapport"] 1774172416.03508 "Slutrapport.bcf" "Slutrapport.bbl" "Slutrapport" 1774172451.12452 0
-  "../ref.bib" 1774171852 942 ff92cc200c4051a3e897a51a6d21c65e ""
-  "../references.bib" 0 -1 0 ""
-  "Slutrapport.bcf" 1774172419 108132 b3df01af33dfa8bc4cce26badbb3f1db "pdflatex"
+["biber Slutrapport"] 1774175074.86033 "Slutrapport.bcf" "Slutrapport.bbl" "Slutrapport" 1774175498.57526 0
+  "../references.bib" 1774171852 942 ff92cc200c4051a3e897a51a6d21c65e ""
+  "Slutrapport.bcf" 1774175498 108139 85def6c958f88d96ca849e34a618ed81 "pdflatex"
   (generated)
   "Slutrapport.bbl"
   "Slutrapport.blg"
   (rewritten before read)
-["pdflatex"] 1774172449.40333 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Fasta tillståndet/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" "Slutrapport.pdf" "Slutrapport" 1774172451.12551 0
+["pdflatex"] 1774175497.11641 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Fasta tillståndet/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" "Slutrapport.pdf" "Slutrapport" 1774175498.57585 0
   "../Förstudie/Bilder/Debye.Scherrer_kamera.png" 1770824107 31441 cc5a836dafc7fe1c97a3fbaf1eb0588c ""
   "Bilder/Intensitetsfördelning med bottnar.png" 1774171688 35272 84559f6b331edf4e2b629b97a8499675 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774025753 81107 70b8516c68c2e617189c5e44bfd16b96 ""
@@ -164,13 +163,13 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "Slutrapport.aux" 1774172450 3830 45297ef412db6608edd6a7969b0cb3f1 "pdflatex"
-  "Slutrapport.bbl" 1774172417 5931 b22844ce3520a9696fdd0ba9c8c3b895 "biber Slutrapport"
-  "Slutrapport.out" 1774172450 868 acb416ed3c25e7172ca2da01d8a4b8e0 "pdflatex"
-  "Slutrapport.run.xml" 1774172450 2454 72f8aee60c418a88206b0d1102b39f4e "pdflatex"
-  "Slutrapport.tex" 1774172447 14869 fbcd9c69757cfeac61bf628f21a95f29 ""
-  "Slutrapport.toc" 1774172450 647 b037e083965d03af53d088405aecedfe "pdflatex"
-  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Fasta tillståndet/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" 1774172447 14869 fbcd9c69757cfeac61bf628f21a95f29 ""
+  "Slutrapport.aux" 1774175498 3830 6307e29fd456948d204dffb2fa00ccc5 "pdflatex"
+  "Slutrapport.bbl" 1774175076 5931 b22844ce3520a9696fdd0ba9c8c3b895 "biber Slutrapport"
+  "Slutrapport.out" 1774175498 868 acb416ed3c25e7172ca2da01d8a4b8e0 "pdflatex"
+  "Slutrapport.run.xml" 1774175498 2454 72f8aee60c418a88206b0d1102b39f4e "pdflatex"
+  "Slutrapport.tex" 1774175495 15651 a0966db84455242d34f84d3f7bf9b168 ""
+  "Slutrapport.toc" 1774175498 647 b65af50bcab2def889564389fd16951d "pdflatex"
+  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Fasta tillståndet/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" 1774175495 15651 a0966db84455242d34f84d3f7bf9b168 ""
   (generated)
   "Slutrapport.aux"
   "Slutrapport.bcf"
