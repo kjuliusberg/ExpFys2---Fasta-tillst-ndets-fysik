@@ -1,0 +1,64 @@
+
+
+ 
+Scan Analysis Report 
+
+Report Time :,Sun 22 Feb 11:31:56 AM 2026
+Method, 
+Batch: ,C:\Users\benjjoh\Desktop\test1_kisel.DSW
+Software version: ,6.5.0.1628
+Operator: , 
+
+Instrument Parameters
+
+Instrument,Cary 5000
+Instrument Version,2.24
+Cary Options, 
+X Mode,Nanometers
+Start,3300.000
+Stop,185.000
+Y Mode,%T
+Y min,-5.00
+Y max,105.00
+Ave time (s),0.100
+Data interval (nm),1.000
+Scan rate (nm/min),600.000
+Overlay data,ON
+
+Advanced Settings, 
+SBW (nm),2.000
+Beam mode,Double
+Energy,1.00
+Slit height,Full
+UV-Vis,ON
+Source changeover (nm),350.00
+Detector changeover (nm),800.00
+Grating changeover (nm),800.00
+
+Baseline, 
+Baseline correction,On
+Retrieve Baseline file...,C:\Users\benjjoh\Desktop\test1_kisel.BSW
+
+Reports, 
+Name, 
+Comment, 
+Results,ON
+Parameters,ON
+Graph,ON
+% Page Height,50
+Company Logo,ON
+Autoconvert,None
+Peak Type,Peaks
+Peak threshold,0.0100
+Peak Label Details,No labels
+Use Actual Interval,ON
+Focused Trace,ON
+
+File Storage, 
+File Storage,Storage on (Prompt at start)
+
+Sample Name: sample5
+ 
+Sample Name: ,sample5
+Collection Time,2/22/2026 11:56:37 AM
+ , 
