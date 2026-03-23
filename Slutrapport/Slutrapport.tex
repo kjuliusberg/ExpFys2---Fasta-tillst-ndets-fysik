@@ -20,6 +20,7 @@
 \usepackage{appendix}
 \usepackage{csquotes}
 \usepackage{comment}
+\usepackage{subcaption}
 \usepackage[
     style=ieee,
     sorting=none
@@ -194,19 +195,46 @@ För att bestämma transmissionsspektrumet av kisel används ett färdigt kiselp
 
 \subsection{Genomförande}
 
+% Inledningsvis bestäms det okända grundämnet med hjälp av Debye-Scherrermetoden. Provet prepareras och monteras inuti Debye-Scherrerkameran. 
+% Därefter monteras röntgenfilm på insidan av kamerans mottagarcylinder. Provet bestrålas därefter med röntgenstrålning under 30 minuter för att 
+% generera tillräckligt god upplösning på filmen för att analys skall kunna genomföras. Avslutnings framkallas filmen och avståndet mellan reflexerna mäts. 
+% Avstånden kan därefter användas för att bestämma Braggvinkeln $\theta$, vilken tillsammans med ekvation \eqref{Eq: Heltalsserie} används för att bestämma 
+% grundämnets kristallstruktur och gitterparameter.
+
+% För att bestämma transmissionsspektrum av kisel placeras det färdiga kiselprovet i CARY 500-spektrofotometern och transmissionsspektrumet bestäms. 
+% Därefter genomförs samma procedur med samma prov i Perkin Elmer 1725 spektrofotometern. Detta eftersom de båda spektrofotometrarna analyserar olika våglängdsområden, 
+% och ett så stort spektrum som möjligt ska kunna analyseras.
+
+Först bestämdes det okända grundämnet med hjälp av Debye-Sherrermetoden. Ett kapillärrör fylldes med ett okänt nedfilat grundämne och monterades sedan i en av fyra kameror.
+Provet placerades i en hållare som roterade röret under hela mätningen. Därefter slogs hål i en röntgenfilm som sedan också monterades på insidan av 
+mottagarcylindern. Detta upprepades sedan fyra gånger tills alla fyra mottagarcylindrar var fyllda.
+
+Under 40 minuter bestrålades kapillärröret av röntgenstrålning. Då röret roterades under förloppet erhölls ett diffraktionsmönster bestående av ringar i stället för enskillda punkter.
+Röntgenfilmen togs ut och behandlades med fixering och framkallningsvätska innan den hängdes på tork. Efter att filmen torkat togs bilder över ett ljusbord för att sedan mäta radien på de ringar som bildats.
+Totalt erhölls tre filmer som visade ett diffraktionsmönster.
+
+Därefter bestämdes transmissionsspektrumet för kisel med två olika spektrofotometrar, Cary 5000  och Parkin Elmer 1725. Dessa kan endast mäta vissa våglängdsintervaller, de våglängder som undersöktes valdes däremed för att
+maximera det totala spektrumet. I Cary 5000 mättes transmissionsspektrumet över våglängderna 1500-25000 nm och med Perkin Elmer mättes intervallet 180-3500 nm. 
 
 
 
-Inledningsvis bestäms det okända grundämnet med hjälp av Debye-Scherrermetoden. Provet prepareras och monteras inuti Debye-Scherrerkameran. Därefter monteras röntgenfilm på insidan av kamerans mottagarcylinder. Provet bestrålas därefter med röntgenstrålning under 30 minuter för att generera tillräckligt god upplösning på filmen för att analys skall kunna genomföras. Avslutnings framkallas filmen och avståndet mellan reflexerna mäts. Avstånden kan därefter användas för att bestämma Braggvinkeln $\theta$, vilken tillsammans med ekvation \eqref{Eq: Heltalsserie} används för att bestämma grundämnets kristallstruktur och gitterparameter.
-
-För att bestämma transmissionsspektrum av kisel placeras det färdiga kiselprovet i CARY 500-spektrofotometern och transmissionsspektrumet bestäms. Därefter genomförs samma procedur med samma prov i Perkin Elmer 1725 spektrofotometern. Detta eftersom de båda spektrofotometrarna analyserar olika våglängdsområden, och ett så stort spektrum som möjligt ska kunna analyseras.
 
 \section{Resultat}
 Totalt erhölls tre lyckade filmer där diffraktionslinjerna var tydliga nog för mätning. 
-Dessa behandlades sedan digitalt för större precision, för full beräkning, se appendix \ref{app:Dataanalys}. 
-För varje bild skapades en intensitetsfördelning mellan filmens två hål, en medelvärderad intensitetsfördelning visas i figur \ref{fig:Intensitetsfördelning}. 
-Genom att söka efter lokala minima i intensitetsfördelningen hittas 8 bottnar som korresponderar till de ringar som hittades på filmerna. 
-Avstånden mellan ringarna och strålcentra visas i tabell \ref{tab:Ringavstånd}.
+Dessa behandlades sedan digitalt för större precision, för full beräkning och kod, se appendix  och . 
+För varje bild hittades de två hålen som filmen fästes i kameran med och en intensitetsfördelning skapades i en linje mellan hålen.
+Därefter togs ett medelvärde av intensitetsfördelningen mellan alla bilder och genom att använda $\texttt{numpy.find\_peaks}$ hittades samtliga
+intensitetsbottnar som korresponderar med ringarna på filmen. En medelvärderad intensitetsfördelning visas i figur \ref{fig:Intensitetsfördelning}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{Bilder/Intensitetsfördelning med bottnar.png}
+    \caption{\textit{Den intensitetsfördelning som erhölls genom att medelvärdera intensitetsfördelningen över bilder som togs av kamerafilmerna. I båda kanterna ses hur intensiteten
+    snabbt ökar, vilket sker då intensitetfördelningen sträcker sig över de hål som slogs i filmen. I fördelningen hittas flera gropar som representerar de mörka cirklar som erhölls
+    på kamerafilmen, dessa gropar markeras även i figuren.}}
+    \label{fig:Intensitetsfördelning}
+\end{figure}
+Från intensitetsfördelningen hittades då avstånden från centrum av det hål där strålcentra sammanfaller och de intensitetsbottnarna där ringarna finns. 
+Dessa avstånd visas i tabell \ref{tab:Ringavstånd}.
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
@@ -214,25 +242,42 @@ Avstånden mellan ringarna och strålcentra visas i tabell \ref{tab:Ringavstånd
         Ring & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ \hline
         Avstånd från strålcentra [mm] & 22,9 & 26,3 & 38,7 & 46,9 & 48,6 & 57,0 & 70,0 & 73,9 \\ \hline
     \end{tabular}
-    \caption{Caption}
+    \caption{\textit{De avstånd som hittades mellan strålcentra och de markerade groparna i figur \ref{fig:Intensitetsfördelning}. Totalt hittades 8 ringar.}}
     \label{tab:Ringavstånd}
 \end{table}
+Från avstånden i tabell \ref{tab:Ringavstånd} kunde sedan en talserie bildas genom att applicera ekvation \ref{Eq:theta från cirkel} och \ref{Eq: Heltalsserie}. 
+Serien normerades med det sista talet och förlängdes för att erhålla en serie som ideelt är en heltalsserie. Den serie som erhölls var
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{Bilder/Intensitetsfördelning med bottnar.png}
-    \caption{\textit{Caption}}
-    \label{fig:Intensitetsfördelning}
-\end{figure}
-
-Därefter kunde en talserie erhållas genom att använda \ref{Eq:theta från cirkel} och \ref{Eq: Heltalsserie}. Serien normerades med det sista talet och förlängdes för att erhålla en heltalsserie, den serie som då erhölls var
 \begin{equation}
-    3,28; \ 4,24; \ 8,48; \ 11,55; \ 12,20; \ 15,22; \ 19,13; \ 20,0.
+    3,28; \ 4,24; \ 8,48; \ 11,55; \ 12,20; \ 15,22; \ 19,13; \ 20,0,
 \end{equation}
-Denna serie matchar de reflexer som förväntas finnas i en FCC struktur. Gitterparametern beräknades sedan genom att betrakta \ref{Eq: Heltalsserie} som en linjär relation mellan $\sin{\theta}^2$ och $(h^2+k^2+l^2)$. Linjär regression utfördes och lutningen, som motsvarar konstanten $(\lambda/2a)^2$, bestämdes. Från detta kunde sedan gitterparametern beräknas till
+vilket matchar de reflexer som förväntas finnas i en FCC struktur. Gitterparametern beräknades sedan genom att betrakta \ref{Eq: Heltalsserie} som en linjär relation 
+mellan $\sin{\theta}^2$ och $(h^2+k^2+l^2)$. Linjär regression utfördes och lutningen, som motsvarar konstanten $(\lambda/2a)^2$, bestämdes. Från detta bestämdes sedan
+gitterparametern till
 \begin{equation}
     a = 3,611 \pm 0,022 \text{ Å}.
 \end{equation}
+
+Därefter bestämdes transmissionsspektrumet för kisel med två spektrometrar, Parkin Elmer och Cary 5000. För båda maskinerna erhölls 5 transmissionsspektrum som sedan medelvärderades
+och visas tillsammans med dess medelfel i figur \ref{fig:Transmissionsspektrum}. 
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Bilder/Transmissionsspektra Medel Cary 5000.png}
+        \caption{\textit{Transmissionsspektrum från Cary 5000.}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png}
+        \caption{\textit{Transmissionsspektrum från Perkin Elmer.}}
+    \end{subfigure}
+    \caption{\textit{Medelvärderade transmissionsspektrum från två olika spektrometrar, Cary 5000 (a) och Perkin Elmer (b). I båda figurerna illustreras även medelfelet som ett intervall
+     runt spektrat, vilket visar att medelfelet är ordningsmässigt störrre i mätningarna som utfördes med Perkin Elmer.}}
+    \label{fig:Transmissionsspektrum}
+\end{figure}
 
 \section{Diskussion}
 
@@ -253,7 +298,7 @@ kunde slutsatsen dras att kisel har ett indirekt bandgap och inte ett direkt ban
 \newpage
 
 \appendix
-\section{Dataanalys}
-\label{app:Dataanalys}
+\section{Beräkning av felmarginal för gitterparameter}
+\label{app:felmarg_gitterparameter}
 
 \end{document}
