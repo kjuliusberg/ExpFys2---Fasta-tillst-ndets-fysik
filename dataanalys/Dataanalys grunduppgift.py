@@ -231,7 +231,7 @@ series0 = series[-1]
 sigma_series0 = sigma_series[-1]
 
 series_norm = 20*series/series0
-sigma_series_norm = sigma_series_norm = series_norm * np.sqrt((sigma_series / series)**2 + (sigma_series0 / series0)**2)
+sigma_series_norm = series_norm * np.sqrt((sigma_series / series)**2 + (sigma_series0 / series0)**2)
 
 hkl_real = np.array([3,4,8,11,12,16,19,20])
 y = 4 * np.sin(theta)**2
