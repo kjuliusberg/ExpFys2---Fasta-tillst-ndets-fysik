@@ -68,6 +68,17 @@ Kurs: TIF097 - Experimentell fysik 2.
 \vspace{1.0cm}
 \centerline{\bf Sammandrag}
 
+Denna laboration syftar till att med hjälp av röntgendiffraktion identifiera ett okänt grundämne.
+Dessutom studeras transmissionsspektrumet för kisel i våglängdsområdet 180 - 3000 nm.
+Inledningsvis förbereddes ett prov av det okända grundämnet som placerades i en röntgendiffraktionskamera.
+Därefter bestrålades provet under 40 minuter av en röntgenstråle.
+Denna röntgenstråle diffrakterades och avbildades på en röntgenfilm som senare framkallades och avståndet mellan de diffrakterade reflexerna mättes.
+Totalt genomfördes 3 mätningar och det okända grundämnet kunde konstateras ha en FCC-struktur med en gitterparameter på 3,61 Å.
+Dessa värden stämmer väl överens med tabulerade värden för koppar, vilket grundämnet kunde identifieras som.
+Därefter struderades transmissionsspektrum av kisel. 
+Utifrån uppmätt transmissionsspektrum kunde kisel bekräftas ha ett indirekt bandgap på ca 1,19 eV
+och fononabsorption i våglängdsområdet 5 - 20 µm.
+
 \newpage
 \tableofcontents
 \newpage
@@ -76,6 +87,7 @@ Kurs: TIF097 - Experimentell fysik 2.
 %Mer om optisk transmission
 %Mer om kristallstrukturer?
 %Varje kristallint material kan beskrivas med hjälp av en kristallstruktur och en eller flera gitterparametrar.  Ett ämnes kristallstruktur beskriver flera av ämnets egenskaper, exempelvis vilka reflexer som är tillåtna under diffraktion. Denna förstudie presenterar tillvägagångssättet att bestämma ett okänt grundämne med hjälp av Debye-Sherrer metoden. Dessutom kommer den optiska transmissionen av kisel att undersökas. -REWORK-
+
 
 Varje kristallint material har en kristallstruktur som beskriver hur atomerna i kristallen är ordnade. 
 Strukturen bestämmer också flera av kristallens egenskaper, exempelvis packningsdensitet eller vilka reflexer som är tillåtna under diffraktion.\cite{Hofmann} 
@@ -88,6 +100,13 @@ Denna förstudie presenterar därmed också ett sätt att mäta transmissionsspe
 
 \section{Teori}
 % Kristallstrukturer generellt (kanske inledning)
+
+Nedan readovisas för den här laborationen relavant teori.
+Detta inkluderar grundämnens kristallstruktur, diffraktionsvillkor samt optisk transmission.
+Även elektron- och fononexcitation diskuteras.
+
+\subsection{Kristallstrukturern och diffraktion}
+
 En kristall beskrivs matematiskt med hjälp av ett bravais-gitter, en oändlig uppsättning regelbundna punkter i rummet där varje gitterpunkt kan nås av en vektor, $R$, enligt
 \begin{equation}
     \vec R = m\vec a_1 + n \vec a_2 + o \vec a_3,
@@ -143,6 +162,8 @@ Däremot kan en liknande princip användas\cite{X-raylabbPM}.
 
 Då kristallstrukturen är känd är även tillåtna och förbjudna reflexer kända. 
 Genom att matcha varje ring till en uppsättning $hkl$ kan $a$ lösas ut och beräknas från \ref{Eq: Heltalsserie}.
+
+\subsection{Optisk transmission}
 
 Transmission, eller optisk transmission, $T$, beskriver hur mycket strålning som passerar genom ett givet material vid en specifik våglängd och definieras enligt
 \begin{equation}
@@ -234,10 +255,15 @@ Deras värden redovisas nedan i tabell \ref{tab:fononfrekvenser}. Värdena i tab
 
 
 \section{Metod}
-Nedan följer en beskrivning av den försöksuppställning som kommer användas under försöket, samt hur laborationen planeras att genomföras.
+Nedan följer en beskrivning av den försöksuppställning som användes under laborationen.
 
 \subsection{Försöksuppställning}
-För att bestämma det okända grundämnet används en Debye-Scherrer-kamera av modell 807 från företaget HUBER. För att generera en bild av diffraktionsmönstret så sprids diffraktionen inuti kameran på insidan av en cylinder, på vilken en röntgenfilm monteras. Då Debye-Scherrer-metoden kräver att ett prov bestrålas med röntgenstrålning används även en röntgengenerator, i det här fallet en Siemens Kristalloflex 710. En schematisk bild över försöksuppställningen visas i figur \ref{fig:Debye_Scherrer_kamera}, där man kan se en infallande röntgenstråle träffa ett prov placerat i mitten. Provet resulterar därefter i diffraktionsstrålar som bestrålar insidan av en cylinder, på vilken en röntgenfilm är placerad och diffraktionsstrålarna avbildas.
+För att bestämma det okända grundämnet användes en Debye-Scherrer-kamera av modell 807 från företaget HUBER. 
+För att generera en bild av diffraktionsmönstret så sprids diffraktionsstrålarna inuti kameran på insidan av en cylinder, på vilken en röntgenfilm monterades. 
+Då Debye-Scherrer-metoden kräver att ett prov bestrålas med röntgenstrålning används även en röntgengenerator, 
+i det här fallet en Siemens Kristalloflex 710. 
+En schematisk bild över försöksuppställningen visas i figur \ref{fig:Debye_Scherrer_kamera}, där man kan se en infallande röntgenstråle träffa ett prov placerat i mitten. 
+Diffraktionsstrålarna avbildas därefter på röntgenfilmen.
 
 \begin{figure}[H]
     \centering
@@ -246,8 +272,17 @@ För att bestämma det okända grundämnet används en Debye-Scherrer-kamera av 
     \label{fig:Debye_Scherrer_kamera}
 \end{figure}
 
-För att bestämma transmissionsspektrumet av kisel används ett färdigt kiselprov, en spektrofotometer av modell CARY 500 och en spektrofotometer av modell Perkin Elmer 1725. 
+För att bestämma transmissionsspektrumet av kisel används ett färdigt kiselprov, en spektrofotometer av modell Cary 5000 och en spektrofotometer av modell Perkin Elmer 1725. 
+Ett kiselprov placerades i mitten av en hållare som sedan placerades i spektrofotometern.
+Figur \ref{fig:prov_i_perkin_elmer} visar kiselprovet placerat inuti Perkin-Elmer-spektrofotometern.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Bilder/prov_i_perkin_elmer_closeup.jpg}
+    \caption{\textit{Kiselprov placerat inuti en spektrofotometer av modell Perkin Elmer 1725.}}
+    \label{fig:prov_i_perkin_elmer}
+\end{figure}
 
+Samma prov placerades därefter inuti Cary 5000-spektrofotometern.
 \subsection{Genomförande}
 
 % Inledningsvis bestäms det okända grundämnet med hjälp av Debye-Scherrermetoden. Provet prepareras och monteras inuti Debye-Scherrerkameran. 
@@ -320,14 +355,14 @@ och visas tillsammans med dess medelfel i figur \ref{fig:Transmissionsspektrum}.
 
 \begin{figure}[H]
     \centering
-    \begin{subfigure}{0.45\textwidth}
+    \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Bilder/Transmissionsspektra Medel Cary 5000.png}
         \caption{\textit{Transmissionsspektrum från Cary 5000.}}
         \label{fig:transmissionsspektrum_a}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{0.45\textwidth}
+    \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png}
         \caption{\textit{Transmissionsspektrum från Perkin Elmer.}}

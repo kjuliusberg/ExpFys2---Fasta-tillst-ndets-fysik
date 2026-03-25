@@ -1,17 +1,18 @@
 # Fdb version 4
-["biber Slutrapport"] 1774430564.79778 "Slutrapport.bcf" "Slutrapport.bbl" "Slutrapport" 1774440578.29485 0
+["biber Slutrapport"] 1774430564.79778 "Slutrapport.bcf" "Slutrapport.bbl" "Slutrapport" 1774443322.84332 0
   "../references.bib" 1774430417 1645 3188f390b718f3f1ad46dcafa4fad905 ""
-  "Slutrapport.bcf" 1774440578 108482 5e47517b41bd8409caa7aa8ee13e9065 "pdflatex"
+  "Slutrapport.bcf" 1774443322 108482 5e47517b41bd8409caa7aa8ee13e9065 "pdflatex"
   (generated)
   "Slutrapport.bbl"
   "Slutrapport.blg"
   (rewritten before read)
-["pdflatex"] 1774440576.37874 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Fasta tillståndet/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" "Slutrapport.pdf" "Slutrapport" 1774440578.29556 0
+["pdflatex"] 1774443321.10944 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Fasta tillståndet/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" "Slutrapport.pdf" "Slutrapport" 1774443322.84393 0
   "../Förstudie/Bilder/Debye.Scherrer_kamera.png" 1770824107 31441 cc5a836dafc7fe1c97a3fbaf1eb0588c ""
   "Bilder/Intensitetsfördelning med bottnar.png" 1774171688 35272 84559f6b331edf4e2b629b97a8499675 ""
   "Bilder/Transmissionsspektra Medel Cary 5000.png" 1774372181 33630 04c108f18b490f43b870222e64539ef0 ""
   "Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png" 1774372181 64633 ab411e90c8a4048ac1071d1b8d6f1a04 ""
   "Bilder/dispersionsrelation_kisel.jpg" 1774429330 455163 4e0579346a0c2b3f78954ade94b79c53 ""
+  "Bilder/prov_i_perkin_elmer_closeup.jpg" 1774441624 47737 fa4c5e35fa3b3702ee8194f305b53f3b ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774025753 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1773064583 31952 2801ef4c9d1324cd48aec91d2fc0c6d6 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1773064586 40136 95324bf41893de140bc7a01085165420 ""
@@ -179,13 +180,13 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "Slutrapport.aux" 1774440577 8511 58069257c29dee2fd7e319b75559e6c2 "pdflatex"
+  "Slutrapport.aux" 1774443322 9338 03a95bb2b61ccd3a0d16a98a742114d5 "pdflatex"
   "Slutrapport.bbl" 1774430566 9153 c2e7f192a163f20f2f2e09e154d2351d "biber Slutrapport"
-  "Slutrapport.out" 1774440578 1056 d87e86f232ec74126f6980a113483f71 "pdflatex"
-  "Slutrapport.run.xml" 1774440578 2454 72f8aee60c418a88206b0d1102b39f4e "pdflatex"
-  "Slutrapport.tex" 1774440572 26663 2702653848c332783ab94e55ecb74bad ""
-  "Slutrapport.toc" 1774440578 685 df1de1bd66e5a8b2c7cc1f93ed889a37 "pdflatex"
-  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Fasta tillståndet/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" 1774440572 26663 2702653848c332783ab94e55ecb74bad ""
+  "Slutrapport.out" 1774443322 1451 f2c3cd76ac595460756857b85120246f "pdflatex"
+  "Slutrapport.run.xml" 1774443322 2454 72f8aee60c418a88206b0d1102b39f4e "pdflatex"
+  "Slutrapport.tex" 1774443318 28358 564e963b822b58a0f907a08caaa7b9c4 ""
+  "Slutrapport.toc" 1774443322 871 64fad4e3f9a27f2690598901f22fdf0d "pdflatex"
+  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Fasta tillståndet/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" 1774443318 28358 564e963b822b58a0f907a08caaa7b9c4 ""
   (generated)
   "Slutrapport.aux"
   "Slutrapport.bcf"
