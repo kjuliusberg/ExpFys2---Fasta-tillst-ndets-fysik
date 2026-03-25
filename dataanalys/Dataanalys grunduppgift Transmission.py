@@ -28,6 +28,7 @@ T_SEM_CARY = T_std_CARY / np.sqrt(len(samples))
 
 fig, ax = plt.subplots()
 plt.plot(wavelengths_CARY, T_mean_CARY, label = 'Medelvärde av transmissionsspektra')
+plt.vlines(1040, 0, 25, color = 'b', alpha = 0.75, label = '1040 nm', linestyles='dotted')
 plt.fill_between(wavelengths_CARY, T_mean_CARY - T_SEM_CARY, T_mean_CARY + T_SEM_CARY, alpha=0.3, color = 'b', label="Medelfel")
 plt.xlabel("Våglängd [nm]")
 plt.ylabel("%T")

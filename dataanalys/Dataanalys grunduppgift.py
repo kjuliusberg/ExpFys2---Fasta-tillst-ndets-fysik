@@ -9,11 +9,11 @@ from matplotlib.ticker import MaxNLocator
 intensitydist = []
 
 # Läs bilder
-img_raw = np.array([cv2.imread("Grunduppgift-data/film1-1.jpg"), 
-                    cv2.imread("Grunduppgift-data/film1-3.jpg"), 
-                    cv2.imread("Grunduppgift-data/film2-1.jpg"),
-                    cv2.imread("Grunduppgift-data/film2-2.jpg"), 
-                    cv2.imread("Grunduppgift-data/film2-3.jpg"),])
+img_raw = np.array([cv2.imread("dataanalys/Grunduppgift-data/film1-1.jpg"), 
+                    cv2.imread("dataanalys/Grunduppgift-data/film1-3.jpg"), 
+                    cv2.imread("dataanalys/Grunduppgift-data/film2-1.jpg"),
+                    cv2.imread("dataanalys/Grunduppgift-data/film2-2.jpg"), 
+                    cv2.imread("dataanalys/Grunduppgift-data/film2-3.jpg"),])
 for i in range(len(img_raw)):
     # Introducera litet "blur" för att hitta rätt cirklar
     img = cv2.rotate(img_raw[i], cv2.ROTATE_90_COUNTERCLOCKWISE)

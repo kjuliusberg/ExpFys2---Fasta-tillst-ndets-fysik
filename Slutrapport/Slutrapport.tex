@@ -26,6 +26,7 @@
     sorting=none
 ]{biblatex}
 \usepackage{titling}
+\usepackage{pdfpages}
 
 \addbibresource{../references.bib}
 
@@ -46,7 +47,8 @@
     breakatwhitespace=true,
     tabsize=4,
     morekeywords={self},  % Lägg till fler Python-nyckelord om nödvändigt
-    literate={ö}{{\"o}}1 {å}{{\aa}}1 {ä}{{\"a}}1 {\\}{{\textbackslash}}1,
+    literate={ö}{{\"o}}1 {å}{{\aa}}1 {ä}{{\"a}}1 {\\}{{\textbackslash}}1 {±}{{$\pm$}}1
+    {Å}{{\AA}}1,
     }
     
 \begin{document}
@@ -90,7 +92,7 @@ och fononabsorption i våglängdsområdet 5 - 20 µm.
 
 
 Varje kristallint material har en kristallstruktur som beskriver hur atomerna i kristallen är ordnade. 
-Strukturen bestämmer också flera av kristallens egenskaper, exempelvis packningsdensitet eller vilka reflexer som är tillåtna under diffraktion.\cite{Hofmann} 
+Strukturen bestämmer också flera av kristallens egenskaper, exempelvis packningsdensitet eller vilka reflexer som är tillåtna under diffraktion\cite{Hofmann}. 
 Denna förstudie presenterar en metod för att bestämma ett okänt grundämnes kristallstruktur och gitterparamater, med målet att specificera vilket grundämne som studeras.
 
 Då ett ämne bestrålas av fotoner kan elektroner i ämnet exiteras genom att absorbera en foton med tillräckligt hög energi. 
@@ -177,7 +179,7 @@ Detta medför en låg transmission. Motsatt, för fotoner vars energi är lägre
 I området då fotonenergin är ungefär lika med $E_g$ erhålls en skarp övergång mellan områdena med låg och hög transmission.
 
 Elektronexcitation är dock inte det enda sättet som en kristall kan interagera med fotoner.
-Ett annat sätt är att fotonen kan excitera en eller flera fononer, som är kvantiserade vibrationer i gittret med en given energi. \cite{Klemens_phonon}
+Ett annat sätt är att fotonen kan excitera en eller flera fononer, som är kvantiserade vibrationer i gittret med en given energi\cite{Klemens_phonon}.
 Fononens energi kan beskrivas som 
 \begin{equation}
     E_f = \left(l + \frac{1}{2}\right)\hbar \omega(k)
@@ -295,26 +297,39 @@ Samma prov placerades därefter inuti Cary 5000-spektrofotometern.
 % Därefter genomförs samma procedur med samma prov i Perkin Elmer 1725 spektrofotometern. Detta eftersom de båda spektrofotometrarna analyserar olika våglängdsområden, 
 % och ett så stort spektrum som möjligt ska kunna analyseras.
 
-Först bestämdes det okända grundämnet med hjälp av Debye-Sherrermetoden. Ett kapillärrör fylldes med ett okänt nedfilat grundämne och monterades sedan i en av fyra kameror.
-Provet placerades i en hållare som roterade röret under hela mätningen. Därefter slogs hål i en röntgenfilm som sedan också monterades på insidan av 
-mottagarcylindern. Detta upprepades sedan fyra gånger tills alla fyra mottagarcylindrar var fyllda.
+Först bestämdes det okända grundämnet med hjälp av Debye-Sherrermetoden. Ett kapillärrör fylldes med ett okänt nedfilat grundämne och monterades sedan i en av fyra kameror, se figur \ref{fig:prov_i_kamera}.
+Provet placerades i en hållare som roterade röret under hela mätningen. Därefter slogs hål i en röntgenfilm som också monterades på insidan av 
+kameran. Detta upprepades sedan fyra gånger tills alla fyra kameror var fyllda.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.33\textwidth]{Bilder/prov i kamera_närbild.jpg}
+    \caption{\textit{Debye-Sherrer kamera med monterat kapillärrör som innehåller ett nedfilat, okänt, grundämne. 
+    Provet monterades i en hållare som långsamt roterades under hela mätningen.}}
+    \label{fig:prov_i_kamera}
+\end{figure}
 
 Under 40 minuter bestrålades kapillärröret av röntgenstrålning. Då röret roterades under förloppet erhölls ett diffraktionsmönster bestående av ringar i stället för enskillda punkter.
-Röntgenfilmen togs ut och behandlades med fixering och framkallningsvätska innan den hängdes på tork. Efter att filmen torkat togs bilder över ett ljusbord för att sedan mäta radien på de ringar som bildats.
+Röntgenfilmen togs ut och behandlades med fixering och framkallningsvätska innan den hängdes på tork. Efter att filmen torkat togs bilder över ett ljusbord av varje film, ett exempel visas i figur \ref{fig:film2-1}.
 Totalt erhölls tre filmer som visade ett diffraktionsmönster.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.33\textwidth, angle=90]{Bilder/film2-1.jpg}
+    \caption{\textit{En av tre filmer som erölls under laborationen. På filmen syns flertalet ringar som korresponderar till de reflexer den kristallstruktur det undersökta ämnet tillåter.
+    Centrum av röntgenstrålen insträffar i centrum av det vänstra hålet av filmen.}}
+    \label{fig:film2-1}
+\end{figure}
+
 Därefter bestämdes transmissionsspektrumet för kisel med två olika spektrofotometrar, Cary 5000  och Parkin Elmer 1725. Dessa kan endast mäta vissa våglängdsintervaller, de våglängder som undersöktes valdes däremed för att
-maximera det totala spektrumet. I Cary 5000 mättes transmissionsspektrumet över våglängderna 180-3500 nm och med Perkin Elmer mättes intervallet 1500-25000 nm. 
-
-
-
+maximera det totala spektrumet. I Cary 5000 mättes transmissionsspektrumet över våglängderna 180-3500 nm och med Perkin Elmer mättes intervallet 1500-25000 nm.
 
 \section{Resultat}
 Totalt erhölls tre lyckade filmer där diffraktionslinjerna var tydliga nog för mätning. 
-Dessa behandlades sedan digitalt för större precision, för full beräkning och kod, se appendix  och . 
+Dessa behandlades sedan digitalt för större precision, för full beräkning och kod, se appendix \ref{app:felmarg_gitterparameter} och \ref{app:kod-debye-sherrer}. 
 För varje bild hittades de två hålen som filmen fästes i kameran med och en intensitetsfördelning skapades i en linje mellan hålen.
-Därefter togs ett medelvärde av intensitetsfördelningen mellan alla bilder och genom att använda $\texttt{numpy.find\_peaks}$ hittades samtliga
-intensitetsbottnar som korresponderar med ringarna på filmen. En medelvärderad intensitetsfördelning visas i figur \ref{fig:Intensitetsfördelning}. 
+Därefter bildades ett medelvärde av intensitetsfördelningen mellan alla bilder och genom att använda $\texttt{numpy.find\_peaks}$ hittades samtliga
+intensitetsbottnar som korresponderar med ringarna på filmen. Den medelvärderade intensitetsfördelningen visas i figur \ref{fig:Intensitetsfördelning}. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{Bilder/Intensitetsfördelning med bottnar.png}
@@ -337,18 +352,19 @@ Dessa avstånd visas i tabell \ref{tab:Ringavstånd}.
     \end{tabular}
     
 \end{table}
-Från avstånden i tabell \ref{tab:Ringavstånd} kunde sedan en talserie bildas genom att applicera ekvation \ref{Eq:theta från cirkel} och \ref{Eq: Heltalsserie}. 
-Serien normerades med det sista talet och förlängdes för att erhålla en serie som ideelt är en heltalsserie. Den serie som erhölls var
+Från avstånden i tabell \ref{tab:Ringavstånd} kunde sedan en talserie bildas genom att applicera ekvation \ref{Eq:theta från cirkel} och \ref{Eq: Heltalsserie}. Värdena på 
+$\lambda$ och $R$ var givna som $\lambda = 1,542$ Å och $2R = 57,8$ cm. Serien normerades med det sista talet och förlängdes för att erhålla en serie som ideelt är en heltalsserie. Den serie som erhölls var
 
 \begin{equation}
     3,28; \ 4,24; \ 8,48; \ 11,55; \ 12,20; \ 15,22; \ 19,13; \ 20,0,
 \end{equation}
 vilket matchar de reflexer som förväntas finnas i en FCC struktur. Gitterparametern beräknades sedan genom att betrakta \ref{Eq: Heltalsserie} som en linjär relation 
-mellan $\sin{\theta}^2$ och $(h^2+k^2+l^2)$. Linjär regression utfördes och lutningen, som motsvarar konstanten $(\lambda/2a)^2$, bestämdes. Från detta bestämdes sedan
-gitterparametern till
+mellan $\sin^2\theta$ och $(h^2+k^2+l^2)$. Linjär regression utfördes och lutningen, som motsvarar konstanten $(\lambda/2a)^2$, bestämdes. För utförligare beräkning av felmarginal, 
+se appendix \ref{app:felmarg_gitterparameter}. Från detta kunde sedan gitterparametern bestämmas till
 \begin{equation}
-    a = 3,611 \pm 0,022 \text{ Å}.
+    a = 3,611 \pm 0,022 \text{ Å},
 \end{equation}
+vilket matchar redan känt värde och struktur för koppar.
 
 Därefter bestämdes transmissionsspektrumet för kisel med två spektrometrar, Parkin Elmer och Cary 5000. För båda maskinerna erhölls 5 transmissionsspektrum som sedan medelvärderades
 och visas tillsammans med dess medelfel i figur \ref{fig:Transmissionsspektrum}. 
@@ -372,6 +388,8 @@ och visas tillsammans med dess medelfel i figur \ref{fig:Transmissionsspektrum}.
      runt spektrat, vilket visar att medelfelet är ordningsmässigt störrre i mätningarna som utfördes med Perkin Elmer.}}
     \label{fig:Transmissionsspektrum}
 \end{figure}
+
+I figur \ref{fig:transmissionsspektrum_a} syns ett abruppt avbrott i transmissionsförmågan. Medelpunkten på detta avbrått estimeras till $1040$ nm, vilket motsvarar energin $1,19$ eV.
 
 \section{Diskussion}
 Syftet med laborationen var att inledningsvis identifiera ett för oss okänt grundämne med hjälp av röntgendiffraktion.
@@ -441,5 +459,383 @@ där fotoner det våglängdsområdet exciterar en eller flera fononer.
 \appendix
 \section{Beräkning av felmarginal för gitterparameter}
 \label{app:felmarg_gitterparameter}
+Gitterparametern beräknades genom att utföra viktad linjär regression på uttrycket
+\begin{equation}
+    4\sin^2(\theta) = \left(\dfrac \lambda a\right)^2 (h^2+k^2+l^2)
+\end{equation}
+som kan betraktas som en linjär funktion enligt
+\begin{equation}
+    y = k x + m,
+\end{equation}
+där $y = 4\sin^2(\theta)$ och $x = (h^2+k^2+l^2)$. För detta användes $\texttt{numpy.polyfit}$ där konstanterna $k = \left(\dfrac \lambda a\right)^2$ och $m$ anpassades 
+med minsta kvadratmetoden. De erhållna värdena viktades med vikterna $1/\sigma^2_{y}$, där $\sigma_{y}$ erhölls genom felfortplantning enligt 
+\begin{equation}
+    \sigma_y = 8\sin\theta \cos\theta \sigma_\theta,
+\end{equation}
+där $\sigma_\theta$ är osäkerheten i vinklarna $\theta$ som på liknande sätt erhålls via felfortplantning enligt
+\begin{equation}
+    \sigma_\theta = \dfrac{\sigma_{tot}}{2R},
+\end{equation}
+där $R$ är kameraradien $28,9$ cm och $\sigma_{tot}$ är den totala standardavvikelsen i de avstånd som presenteras i tabell \ref{tab:Ringavstånd}. Den totala standardavvikelsen beror både
+på den statistiska spridningen i mätningarna, $\sigma_r$, och det diskretiseringsfel som uppkommer från pixelisering av filmerna, $\sigma_{kod}$. Det antogs att de avstånd som hittades i intensitetsfördelningen 
+hade osäkerhet av 1 pixel. Den totala osäkerheten blir därmed
+\begin{equation}
+    \sigma_{tot} = \sqrt{\sigma_r^2 + \sigma^2_{kod}}.
+\end{equation} 
+Standardavvikelsen i mätningarna erhölls genom att använda $\texttt{numpy.std}$ och ett $95\%$ konfidensintervall beräknades med Student-t-fördelningen enligt
+\begin{equation}
+    \sigma_r = t_{0,975, n-1}\dfrac{\sigma}{\sqrt{n}},
+\end{equation}
+där $\sigma$ är standardavvikelsen för ett stickprov och $n$ är antalet mätningar.
+
+Från $\texttt{numpy.polyfit}$ erhålls även kovariansmatrisen för regressionen, och standardavvikelsen för $k$, $\sigma_k$, beräknades genom att ta roten ur dess korresponderande diagaonalelement.
+Osäkerheten i gitterparametern, $a$, beräknades sedan med felfortplantning enligt
+\begin{equation}
+    \sigma_a = \dfrac{\lambda}{2k^{3/2}}\sigma_k,
+\end{equation}
+där $\lambda$ är den genomsnittliga våglängden på den röntgenstrålning som nyttjades, enligt uppgift gäller $\lambda = 1,542$ Å. Med insatta värden för $R$, $\lambda$ erhålls en felmarginal för $a$ på
+\begin{equation}
+    0,022 \text{ Å}.
+\end{equation}
+
+\section{Kod för data- och felanalys}
+Nedan presenteras all kod som användes för att utföra data- och felanalys av både gitterparametern och transmissionsspektrumet.
+\subsection{Kod för data- och felanalys av gitterparameter}
+\label{app:kod-debye-sherrer}
+Nedan presenteras den kod som användes för att analysera kamerafilmerna från Debye-Sherrer-experimentet.
+\begin{lstlisting}[style=mypython, label={lst:dataanalys_Debye-Sherrer}]
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import find_peaks
+from scipy.ndimage import gaussian_filter1d
+from scipy.stats import t
+from matplotlib.ticker import MaxNLocator
+
+intensitydist = []
+
+# Läs bilder
+img_raw = np.array([
+        cv2.imread("dataanalys/Grunduppgift-data/film1-1.jpg"), 
+        cv2.imread("dataanalys/Grunduppgift-data/film1-3.jpg"), 
+        cv2.imread("dataanalys/Grunduppgift-data/film2-1.jpg"),
+        cv2.imread("dataanalys/Grunduppgift-data/film2-2.jpg"), 
+        cv2.imread("dataanalys/Grunduppgift-data/film2-3.jpg"),])
+for i in range(len(img_raw)):
+    # Introducera litet "blur" för att hitta rätt cirklar
+    img = cv2.rotate(img_raw[i], cv2.ROTATE_90_COUNTERCLOCKWISE)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray_blur = cv2.GaussianBlur(gray, (9, 9), 2)
+
+    # Hitta centrum av de två hålen
+    circles = cv2.HoughCircles(
+        gray_blur,
+        cv2.HOUGH_GRADIENT,
+        dp=1.2,
+        minDist=100,
+        param1=50,
+        param2=30,
+        minRadius=10,
+        maxRadius=130
+    )
+
+    circles = np.around(circles).astype(int)
+    (x11, y11, r11), (x22, y22, r22) = circles[0][:2]
+    # Ordna hålen från vänster till höger
+    if x11 < x22:
+        x1, y1 = x11, y11
+        x2, y2 = x22, y22
+    else:
+        x1, y1 = x22, y22
+        x2, y2 = x11, y11
+
+    # Skapa samples längs en linje mellan cirkelcentrum
+    samples = 5000
+    xs = np.linspace(x1, x2, samples, endpoint=True)
+    ys = np.linspace(y1, y2, samples, endpoint=True)
+    profile = []
+
+    # Ta en intensitetsfördelning längs den samplade linjen
+    for x, y in zip(xs, ys):
+        xi, yi = int(round(x)), int(round(y))
+        profile.append(gray[yi, xi])
+
+    profile = np.array(profile)
+    intensitydist.append(profile)
+
+# Skapa en medelintensitetsfördelning
+intensitydist = np.mean(intensitydist, 0)
+
+# Ta bort område innan första ringen (undvika onödiga bottnar)
+n = len(intensitydist)
+
+mask = np.ones(n, dtype=bool)
+
+# Sätt marginal
+margin = int(0.15 * n)
+mask[:margin] = False
+mask[-margin:] = False
+
+valid_indices = np.where(mask)[0]
+filtered_profile = intensitydist[mask]
+
+# Hitta bottnar i intensitetsfördelningen med find_peaks
+inv = - filtered_profile
+baseline = gaussian_filter1d(inv, sigma=100)
+corrected = inv - baseline
+peaks, _ = find_peaks(corrected, distance=190, prominence=2, width=1, plateau_size=1)
+
+# Manuellt lägg till 12-toppen där den "ska vara"
+range12 = [peaks[3]+100, peaks[4]-100]
+peak12 = np.where(corrected == np.max(corrected[range12[0]:range12[1]]))[0][0]
+peaks = np.insert(peaks, 4, peak12)
+peaks = valid_indices[peaks]
+
+
+# Skala om till verklig längd
+# Pixelavstånd mellan hålen
+pixel_dist = np.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+meter_per_pixel = 0.09 / pixel_dist
+
+# Hitta peaks i varje bild givet att vi vet ungefär vart de ska vara
+window = 50
+all_vals = []
+
+for i in range(len(img_raw)-1):
+    img = cv2.rotate(img_raw[i], cv2.ROTATE_90_COUNTERCLOCKWISE)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray_blur = cv2.GaussianBlur(gray, (9, 9), 2)
+
+    circles = cv2.HoughCircles(
+        gray_blur,
+        cv2.HOUGH_GRADIENT,
+        dp=1.2,
+        minDist=100,
+        param1=50,
+        param2=30,
+        minRadius=10,
+        maxRadius=130
+    )
+
+    circles = np.around(circles).astype(int)
+    (x11, y11, r11), (x22, y22, r22) = circles[0][:2]
+
+    if x11 < x22:
+        x1, y1 = x11, y11
+        x2, y2 = x22, y22
+        r1 = r11
+        r2 = r22
+    else:
+        x1, y1 = x22, y22
+        x2, y2 = x11, y11
+        r1 = r22
+        r2 = r11
+
+    xs = np.linspace(x1, x2, samples, endpoint=True)
+    ys = np.linspace(y1, y2, samples, endpoint=True)
+
+    profile = []
+    for x, y in zip(xs, ys):
+        xi, yi = int(round(x)), int(round(y))
+        profile.append(gray[yi, xi])
+
+    profile = np.array(profile)
+    vals = []
+
+    # I ett fönter runt varje medelpeak, hitta minimum för aktuell bild
+    for p in peaks:
+        left = max(0, p - window)
+        right = min(len(profile), p + window)
+
+        local_idx = np.argmin(profile[left:right])
+        true_idx = left + local_idx
+
+        px = xs[true_idx]
+        py = ys[true_idx]
+
+        dist_pixels = np.sqrt((px - x1)**2 + (py - y1)**2)
+        dist_m = dist_pixels * meter_per_pixel
+
+        vals.append(dist_m)
+
+    all_vals.append(vals)
+
+    output = img.copy()
+
+
+    # # Rita på bilden vart ringarna finns, för debugging
+    # # Rita linje
+    # cv2.line(output, (x1, y1), (x2, y2), (255, 0, 0), 2)
+    # cv2.circle(output, (x1, y1), 10, (255,0,0), r1)
+    # cv2.circle(output, (x2, y2), 10, (0,255,0), r2)
+
+    # # Rita detekterade punkter
+    # for p in peaks:
+    #     px = int(xs[p])
+    #     py = int(ys[p])
+    #     cv2.circle(output, (px, py), 3, (0, 0, 255), -1)
+
+    # cv2.namedWindow("Line detection", cv2.WINDOW_NORMAL)
+    # cv2.imshow("Line detection", output)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
+
+# Alla peakavstånd i alla bilder
+all_vals = np.array(all_vals)
+
+# Beräkna standardavvikelsen för peakavstånden
+n = all_vals.shape[0]
+
+mean_vals = np.mean(all_vals, axis=0)
+std_vals = np.std(all_vals, axis=0, ddof=1)
+
+# Ta 95% konfidensintervall
+tval = t.ppf(0.975, n-1)
+
+# instrumentfel
+sigma_pixel = 1
+sigma_instr = meter_per_pixel * sigma_pixel
+
+total_std = np.sqrt(std_vals**2 + sigma_instr**2)
+
+sigma_vals = tval * total_std / np.sqrt(n)
+
+vals = mean_vals
+
+print("Vals (mm):", 1000 * vals)
+print("Osäkerhet (mm):", 1000 * sigma_vals)
+
+# Visa plot över intensitetsfördelningen
+distances_mm = np.linspace(0, 90, samples)
+plt.style.use('ggplot')
+fig, ax = plt.subplots()
+plt.plot(distances_mm, intensitydist, label = 'Intensitetsfördelning')
+plt.scatter(distances_mm[peaks], intensitydist[peaks], color='blue', label = 'Ringar')
+plt.xlabel('Avstånd [mm]')
+plt.ylabel('Intensitet [arb.]')
+plt.title("Medelintensitetsfördelning")
+ax.xaxis.set_major_locator(MaxNLocator(nbins=10))  # increase tick count
+plt.legend()
+plt.savefig('Intensitetsfördelning med bottnar.png')
+
+
+# Manuellt mätta avstånd för de tre filmerna
+# vals1 = np.array([22, 25.5, 37.5, 46, 47.8, 69, 73])/1000
+# vals2 = np.array([22.1,26,36.6,45.6,47.4,68.7,73])/1000
+# vals3 = np.array([22.1,25.8,37.7,45,47.8,68.5,72.8])/1000
+
+# Kod för att få fram heltalsserie, gitterparameter och osäkerheter
+R = (57.3/2)/1000
+lam = 1.542e-10
+
+theta = vals / (2 * R)
+sigma_theta = np.sqrt((sigma_vals / (2 * R))**2)
+
+series = 4 * np.sin(theta)**2 / lam**2
+sigma_series = (8 * np.sin(theta) * np.cos(theta) / lam**2) * sigma_theta
+
+series0 = series[-1]
+sigma_series0 = sigma_series[-1]
+
+series_norm = 20*series/series0
+sigma_series_norm = series_norm * np.sqrt((sigma_series / series)**2 + (sigma_series0 / series0)**2)
+
+hkl_real = np.array([3,4,8,11,12,16,19,20])
+y = 4 * np.sin(theta)**2
+weights = 1/(sigma_series**2)
+
+coeffs, cov = np.polyfit(hkl_real, y, 1, w=weights, cov = True)
+slope = coeffs[0] # y = (lambda/a)**2 x
+sigma_slope = np.sqrt(cov[0,0])
+
+a = lam/np.sqrt(slope)
+sigma_a = (lam / (2*slope**(1.5)))*sigma_slope
+
+print("Heltalserie:", ", ".join(f"{val:.2f} ± {err:.2f}" for val, err in zip(series_norm, sigma_series_norm)))
+print(f"a = {(a/1e-10):.4} ± {(sigma_a/1e-10):.2} Å")
+\end{lstlisting}
+
+
+\subsection{Kod för data- och felanalys av transmissionsspektrum}
+\label{app:kod-transmission}
+Nedan presenteras den kod som användes för att analysera datan från Cary 5000 och Perkin Elmer 1725.
+\begin{lstlisting}[style=mypython, label={lst:dataanalys_transmission}]
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+plt.style.use('ggplot')
+
+# -- Mätning med Cary 5000 --
+# Ta in data
+data_CARY = pd.read_csv('dataanalys/Spektroskopi-data/Transmission_kisel_OFFICIELL.csv', skiprows=1, skipfooter=194, engine='python')
+data_CARY = data_CARY.dropna(axis=1, how="all")
+datasets_CARY = []
+
+for i in range(0, len(data_CARY.columns), 2):
+    sub = data_CARY.iloc[:, i:i+2].copy()
+    sub.columns = ['Wavelength (nm)', '%T']
+    sub = sub.dropna()
+    datasets_CARY.append(sub)
+
+baseline = datasets_CARY[0]
+wavelengths_CARY = baseline['Wavelength (nm)']
+samples = datasets_CARY[1:]
+
+# Medelvärdera, plotta och ta fram standardavvikelse
+T_values_CARY = 100*np.array([s["%T"].values for s in samples]) / np.array([baseline["%T"].values])
+T_mean_CARY = np.mean(T_values_CARY, axis=0)
+T_std_CARY = np.std(T_values_CARY, axis=0)
+T_SEM_CARY = T_std_CARY / np.sqrt(len(samples))
+
+fig, ax = plt.subplots()
+plt.plot(wavelengths_CARY, T_mean_CARY, label = 'Medelvärde av transmissionsspektra')
+plt.fill_between(wavelengths_CARY, T_mean_CARY - T_SEM_CARY, T_mean_CARY + T_SEM_CARY, alpha=0.3, color = 'b', label="Medelfel")
+plt.xlabel("Våglängd [nm]")
+plt.ylabel("%T")
+plt.title('Transmissionsspektra för kisel med Cary 5000')
+plt.legend()
+plt.savefig('Transmissionsspektra Medel Cary 5000')
+
+
+# -- Mätning med PerkinElmer --
+# Ta in data
+datasets_PE = [pd.read_csv('dataanalys/Spektroskopi-data/student 07.csv', sep=";", encoding='latin1', skiprows=1, decimal=","),
+        pd.read_csv('dataanalys/Spektroskopi-data/student 09.csv', sep=";", encoding='latin1', skiprows=1, decimal=","),
+        pd.read_csv('dataanalys/Spektroskopi-data/student 10_1.csv', sep=";", encoding='latin1', skiprows=1, decimal=","),
+        pd.read_csv('dataanalys/Spektroskopi-data/student 11.csv', sep=";", encoding='latin1', skiprows=1, decimal=","),
+        pd.read_csv('dataanalys/Spektroskopi-data/student 13.csv', sep=";", encoding='latin1', skiprows=1, decimal=",")]
+
+
+# Medelvärdera, plotta och ta fram standardavvikelse
+wavelengths_PE = datasets_PE[0]['nm']
+wavelengths_PE = wavelengths_PE[268:]
+T_values_PE = np.array([s['%T'].values for s in datasets_PE])
+T_values_PE = T_values_PE[:, 268:]
+
+# Troubleshooting plot
+# for i in range(len(T_values_PE)):
+#     plt.plot(wavelengths_PE, T_values_PE[i])
+#     plt.show()
+
+T_mean_PE = np.mean(T_values_PE, axis=0)
+T_std_PE = np.std(T_values_PE)
+T_SEM_PE = T_std_PE/np.sqrt(len(datasets_PE))
+
+fig, ax = plt.subplots()
+plt.plot(wavelengths_PE, T_mean_PE, label = 'Medelvärde av transmissionsspektra')
+plt.fill_between(wavelengths_PE, T_mean_PE - T_SEM_PE, T_mean_PE + T_SEM_PE, alpha=0.3, color = 'b', label="Medelfel")
+plt.xlabel("Våglängd [nm]")
+plt.ylabel("%T")
+plt.title('Transmissionsspektra för kisel med Perkin Elmer 1725')
+plt.legend()
+plt.savefig('Transmissionsspektra Medel Perkin Elmer 1725')
+
+
+\end{lstlisting}
+
+\section{Labblogg}
+Nedan presenteras den labblogg som skrevs under laborationen.
+\includepdf[pages=-]{Labblogg Fasta Tillståndets Fysik.pdf}
 
 \end{document}

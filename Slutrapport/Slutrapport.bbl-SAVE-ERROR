@@ -147,6 +147,87 @@
       \field{title}{Physics handbook: For science and engineering}
       \field{year}{2020}
     \endentry
+    \entry{Klemens_phonon}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ec39e236c3eeaa0a8da0fb0979bfc68c}{%
+           family={Klemens},
+           familyi={K\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \strng{namehash}{ec39e236c3eeaa0a8da0fb0979bfc68c}
+      \strng{fullhash}{ec39e236c3eeaa0a8da0fb0979bfc68c}
+      \strng{fullhashraw}{ec39e236c3eeaa0a8da0fb0979bfc68c}
+      \strng{bibnamehash}{ec39e236c3eeaa0a8da0fb0979bfc68c}
+      \strng{authorbibnamehash}{ec39e236c3eeaa0a8da0fb0979bfc68c}
+      \strng{authornamehash}{ec39e236c3eeaa0a8da0fb0979bfc68c}
+      \strng{authorfullhash}{ec39e236c3eeaa0a8da0fb0979bfc68c}
+      \strng{authorfullhashraw}{ec39e236c3eeaa0a8da0fb0979bfc68c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AccessScience}
+      \field{month}{8}
+      \field{title}{Phonon}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1036/1097-8542.508000
+      \endverb
+    \endentry
+    \entry{phonons_silicon}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=1cf49f1135614efaa070d21bd71e7040}{%
+           family={Franta},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cca447570337cc082078877317a4f458}{%
+           family={Nečas},
+           familyi={N\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8ea85c002ccd2106b072292c7d859260}{%
+           family={Zajíčková},
+           familyi={Z\bibinitperiod},
+           given={Lenka},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fa2e055613ec60c16a3509ca40a50a4a}{%
+           family={Ohlídal},
+           familyi={O\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{3b2e7bead6ac6fa99ce3084c73b52574}
+      \strng{fullhash}{ba9561f7944f096ec48da582e88472f3}
+      \strng{fullhashraw}{ba9561f7944f096ec48da582e88472f3}
+      \strng{bibnamehash}{ba9561f7944f096ec48da582e88472f3}
+      \strng{authorbibnamehash}{ba9561f7944f096ec48da582e88472f3}
+      \strng{authornamehash}{3b2e7bead6ac6fa99ce3084c73b52574}
+      \strng{authorfullhash}{ba9561f7944f096ec48da582e88472f3}
+      \strng{authorfullhashraw}{ba9561f7944f096ec48da582e88472f3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Opt. Mater. Express}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Dispersion model of two-phonon absorption: application to c-Si}
+      \field{volume}{4}
+      \field{year}{2014}
+      \field{pages}{1641\bibrangedash 1656}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1364/OME.4.001641
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

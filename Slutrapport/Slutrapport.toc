@@ -6,7 +6,11 @@
 \contentsline {section}{\numberline {3}Metod}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Försöksuppställning}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Genomförande}{7}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Resultat}{7}{section.4}%
-\contentsline {section}{\numberline {5}Diskussion}{9}{section.5}%
-\contentsline {section}{\numberline {6}Slutsatser}{10}{section.6}%
-\contentsline {section}{\numberline {A}Beräkning av felmarginal för gitterparameter}{12}{appendix.A}%
+\contentsline {section}{\numberline {4}Resultat}{8}{section.4}%
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}%
+\contentsline {section}{\numberline {6}Slutsatser}{11}{section.6}%
+\contentsline {section}{\numberline {A}Beräkning av felmarginal för gitterparameter}{13}{appendix.A}%
+\contentsline {section}{\numberline {B}Kod för data- och felanalys}{13}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Kod för data- och felanalys av gitterparameter}{14}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Kod för data- och felanalys av transmissionsspektrum}{19}{subsection.B.2}%
+\contentsline {section}{\numberline {C}Labblogg}{21}{appendix.C}%
