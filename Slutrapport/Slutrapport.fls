@@ -304,6 +304,14 @@ INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 OUTPUT Slutrapport.toc
+INPUT .\Bilder\dispersionsrelation_kisel.jpg
+INPUT .\Bilder\dispersionsrelation_kisel.jpg
+INPUT .\Bilder\dispersionsrelation_kisel.jpg
+INPUT .\Bilder\dispersionsrelation_kisel.jpg
+INPUT .\Bilder\dispersionsrelation_kisel.jpg
+INPUT .\Bilder\dispersionsrelation_kisel.jpg
+INPUT .\Bilder\dispersionsrelation_kisel.jpg
+INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT ..\Förstudie\Bilder\Debye.Scherrer_kamera.png
@@ -313,7 +321,6 @@ INPUT ..\Förstudie\Bilder\Debye.Scherrer_kamera.png
 INPUT ..\Förstudie\Bilder\Debye.Scherrer_kamera.png
 INPUT ..\Förstudie\Bilder\Debye.Scherrer_kamera.png
 INPUT ..\Förstudie\Bilder\Debye.Scherrer_kamera.png
-INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt0800.tfm
@@ -342,21 +349,27 @@ INPUT .\Bilder\Transmissionsspektra Medel Perkin Elmer 1725.png
 INPUT .\Bilder\Transmissionsspektra Medel Perkin Elmer 1725.png
 INPUT .\Bilder\Transmissionsspektra Medel Perkin Elmer 1725.png
 INPUT .\Bilder\Transmissionsspektra Medel Perkin Elmer 1725.png
+INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT Slutrapport.aux
 INPUT .\Slutrapport.out
 INPUT .\Slutrapport.out
 INPUT Slutrapport.run.xml
 OUTPUT Slutrapport.run.xml
+INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
+INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
+INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
@@ -379,3 +392,5 @@ INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb

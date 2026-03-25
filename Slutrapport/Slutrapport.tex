@@ -141,7 +141,8 @@ som kan matchas med kända serier för att utesluta vissa kristallstrukturer.
 Om strukturen inte skulle vara kubisk gäller däremot inte \ref{Eq: d-kubisk}, och \ref{Eq: Heltalsserie} antar en annan form. 
 Däremot kan en liknande princip användas\cite{X-raylabbPM}.
 
-Då kristallstrukturen är känd är även tillåtna och förbjudna reflexer kända. Genom att matcha varje ring till en uppsättning $hkl$ kan $a$ lösas ut och beräknas från \ref{Eq: Heltalsserie}.
+Då kristallstrukturen är känd är även tillåtna och förbjudna reflexer kända. 
+Genom att matcha varje ring till en uppsättning $hkl$ kan $a$ lösas ut och beräknas från \ref{Eq: Heltalsserie}.
 
 Transmission, eller optisk transmission, $T$, beskriver hur mycket strålning som passerar genom ett givet material vid en specifik våglängd och definieras enligt
 \begin{equation}
@@ -153,6 +154,60 @@ Kisel har ett indirekt bandgap på $E_g = \SI{1,124}{eV}$\cite{physics_handbook}
 Elektroner kan exciteras från valensbandet till ledningsbandet genom att absorbera fotoner med energi större än $E_g$. 
 Detta medför en låg transmission. Motsatt, för fotoner vars energi är lägre än $E_g$ kommer transmittansen vara hög, då elektronerna inte kan exciteras till ledningsbandet. 
 I området då fotonenergin är ungefär lika med $E_g$ erhålls en skarp övergång mellan områdena med låg och hög transmission.
+
+Elektronexcitation är dock inte det enda sättet som en kristall kan interagera med fotoner.
+Ett annat sätt är att fotonen kan excitera en eller flera fononer, som är kvantiserade vibrationer i gittret med en given energi. \cite{Klemens_phonon}
+Fononens energi kan beskrivas som 
+\begin{equation}
+    E_f = \left(l + \frac{1}{2}\right)\hbar \omega(k)
+    \label{eq:fonon_energi}
+\end{equation}
+där $l$ är ett positivt heltal, $\hbar$ är Plancks reducerade konstant, $\omega$ är vibrationens vinkelfrekvens och $k$ är vågtalet.
+En foton kan alltså inducera en eller flera fononer med en lägre frekvens än fotonens egen.
+Skulle detta ske kommer de resulterande fononerna ha energi enligt
+\begin{equation}
+    E_\gamma = E_i + E_j,
+    \label{Eq:multifononabsorption}
+\end{equation}
+där $E_\gamma$ är fotonens energi och $E_i$ och $E_j$ är fononenergier.
+Eftersom $\omega$ är en funktion av vågtalet $k$ och $k$ är kontinuerlig \cite{Hofmann} kommer detta ge upphov till ett band av fotonabsorption.
+
+Fononer uppvisar olika frekvenser vid olika riktningar i det reciproka rkristallgittret.
+Dessa olika riktningar ger upphov till olika grenar som kallas för dispersionsrelationer.
+Kisel, som har en FCC-struktur med 2 atomer i basen, har 6 grenar.
+Dessa grenar kallas för TA$_1$, TA$_2$ LA, LO, TO$_1$, TO$_2$ och hela dispersionsrelationen visas nedan i figur \ref{fig:dispersionsrelation_kisel}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Bilder/dispersionsrelation_kisel.jpg}
+    \caption{\textit{Dispersionsrelation för kisel. Figuren visar 6 grenar längs med olika riktningar i det reciproka gittret.
+    De röda punkterna är beräknade frekvenser vid de 5 första symmetripunkterna i det reciproka rummet och motsvarande värden redovisas i tabell \ref{tab:fononfrekvenser}.
+    Figuren är tagen från \cite{phonons_silicon}.}}
+    \label{fig:dispersionsrelation_kisel}
+\end{figure}
+
+De röda punkterna i figuren är beräknade vibrationsfrekvenser för de olika grenarna vid de 5 första symmetripunkterna i gittret.
+Deras värden redovisas nedan i tabell \ref{tab:fononfrekvenser}. Värdena i tabellen är tagna från \cite{phonons_silicon}.
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \setlength{\tabcolsep}{3pt}
+    \caption{\textit{Fononfrekvenser för olika dispersionsgrenar i symmetripunkter för kisel.
+    Dessa värden motsvara de röda punkter som markerats i figur \ref{fig:dispersionsrelation_kisel}.
+    Alla värden anges i THz.}}
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    \rowcolor{lightgray} Symmetripunkt& TA$_1$ [THz] &TA$_2$ [THz]&LA [THz]&LO [THz]&TO$_1$ [THz]&TO$_2$ [THz]\\
+    \hline
+        $\Gamma$ & 0    & 0    & 0    & {}     & 15,63 & 15,63 \\
+        X        & 4,71 & {}   & {}   & 11,98  & {}    & 14,09 \\
+        L        & 3,14 & {}   & 11,05& 12,93  & {}    & 14,99 \\
+        W        & 6,39 & {}   & {}   & 10,63  & {}    & 14,33 \\
+        K        & 4,82 & 6,70 & 10,88& 11,30  & 13,90 & 14,91 \\
+    \hline
+    \end{tabular}
+    \label{tab:fononfrekvenser}
+\end{table}
 % \begin{table}
 % \centering
 % \begin{tabular}{|c|c|c|c|c|}
@@ -214,7 +269,7 @@ Röntgenfilmen togs ut och behandlades med fixering och framkallningsvätska inn
 Totalt erhölls tre filmer som visade ett diffraktionsmönster.
 
 Därefter bestämdes transmissionsspektrumet för kisel med två olika spektrofotometrar, Cary 5000  och Parkin Elmer 1725. Dessa kan endast mäta vissa våglängdsintervaller, de våglängder som undersöktes valdes däremed för att
-maximera det totala spektrumet. I Cary 5000 mättes transmissionsspektrumet över våglängderna 1500-25000 nm och med Perkin Elmer mättes intervallet 180-3500 nm. 
+maximera det totala spektrumet. I Cary 5000 mättes transmissionsspektrumet över våglängderna 180-3500 nm och med Perkin Elmer mättes intervallet 1500-25000 nm. 
 
 
 
@@ -237,13 +292,15 @@ Från intensitetsfördelningen hittades då avstånden från centrum av det hål
 Dessa avstånd visas i tabell \ref{tab:Ringavstånd}.
 \begin{table}[H]
     \centering
+    \caption{\textit{De avstånd som hittades mellan strålcentra och de markerade groparna i figur \ref{fig:Intensitetsfördelning}. Totalt hittades 8 ringar.}}
+    \label{tab:Ringavstånd}
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \rowcolor{lightgray}
         \hline
         Ring & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ \hline
         Avstånd från strålcentra [mm] & 22,9 & 26,3 & 38,7 & 46,9 & 48,6 & 57,0 & 70,0 & 73,9 \\ \hline
     \end{tabular}
-    \caption{\textit{De avstånd som hittades mellan strålcentra och de markerade groparna i figur \ref{fig:Intensitetsfördelning}. Totalt hittades 8 ringar.}}
-    \label{tab:Ringavstånd}
+    
 \end{table}
 Från avstånden i tabell \ref{tab:Ringavstånd} kunde sedan en talserie bildas genom att applicera ekvation \ref{Eq:theta från cirkel} och \ref{Eq: Heltalsserie}. 
 Serien normerades med det sista talet och förlängdes för att erhålla en serie som ideelt är en heltalsserie. Den serie som erhölls var
@@ -267,12 +324,14 @@ och visas tillsammans med dess medelfel i figur \ref{fig:Transmissionsspektrum}.
         \centering
         \includegraphics[width=\linewidth]{Bilder/Transmissionsspektra Medel Cary 5000.png}
         \caption{\textit{Transmissionsspektrum från Cary 5000.}}
+        \label{fig:transmissionsspektrum_a}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.45\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png}
         \caption{\textit{Transmissionsspektrum från Perkin Elmer.}}
+        \label{fig:transmissionsspektrum_b}
     \end{subfigure}
     \caption{\textit{Medelvärderade transmissionsspektrum från två olika spektrometrar, Cary 5000 (a) och Perkin Elmer (b). I båda figurerna illustreras även medelfelet som ett intervall
      runt spektrat, vilket visar att medelfelet är ordningsmässigt störrre i mätningarna som utfördes med Perkin Elmer.}}
@@ -280,21 +339,68 @@ och visas tillsammans med dess medelfel i figur \ref{fig:Transmissionsspektrum}.
 \end{figure}
 
 \section{Diskussion}
+Syftet med laborationen var att inledningsvis identifiera ett för oss okänt grundämne med hjälp av röntgendiffraktion.
+Detta gjordes genom att analysera diffraktionsmönstret och därmed bestämma vilka reflexer som avbildades på filmen. 
+Genom att jämföra de uppmätta reflexerna med kända serier för olika kristallstrukturer kunde grundämnets kristallstruktur bestämmas till FCC 
+och dess gitterparameter till ca 3,61 Å.
+Allt sammantaget kunde alltså grundämnet bestämmas som koppar, vilket har en FCC-struktur och en känd gitterparameter på 3,61 Å.
 
+Resultatet är dock osäkert, eftersom den uppmätta heltalsserien för vissa reflexer avviker ganska signifikant från det teoretiska värdet.
+För till exempel reflex 6 skall det teoretiska värdet i heltalsserien vara 16, men det beräknade värdet är närmare 15.
+Detsamma gäller för reflex 4, som teoretiskt sett borde vara 11 men det beräknade värdet är tydligt närmare 12.
+Dessa diskrepanser hade kunnat elimineras om fler mätningar hade genomförts.
+Dessa beräkningar är baserade på endast 3 mätningar, vilket får ses som för lite för att kunna uppnå ett tillförlitligt resultat.
+Anledningen till detta är den stora andelen misslyckade mätningar samt begränsad tillgång till röntgenkameran.
+Av 8 försök ledde 3 till mätbara resultat.
+
+Gitterparametern kunde dock bestämmas med ganska god precision, eftersom linjär regression kunde utföras.
+Det beräknade värdet ligger mycket nära det tabulerade värdet för koppar och får därför ses som ett gott resultat.
+Den relativt låga felmarginalen bidrar även den till resultatets tillförlitlighet.
+
+Vad gäller transmissionsspektrumet kan man inledningsvis konstatera att där de två spektrofotometrarna överlappar, 
+dvs vid en våglängd på ca 3000 nm, skiljer transmissionen mellan dem med ca 10 procentenheter.
+Detta får ses komma från olika kalibreringar av maskinerna och kan bortses från fortsättningsvis.
+
+Vad gäller transmissionen för korta våglängder som samlades in från Cary 5000 kan man observera ett tydligt avbrott med en mittpunkt vid ca 1040 nm i figur \ref{fig:Transmissionsspektrum}.
+Detta motsvarar en fotonenergi på ca 1,19 eV, vilket är mycket nära kisels bandgap på 1,12 eV.
+Figur \ref{fig:transmissionsspektrum_a} visar även att övergången inte är diskret, utan sker i ett område mellan 1000 - 1100 nm.
+Anledningen till detta är att i det området kan en foton excitera en elektron samtidigt som den exciterar eller annihilerar en fonon.
+Eftersom fononerna är beroende av vågtalet $k$ kan denna excitation ske över ett kontinuerligt energispektrum,
+och detta är anledningen till att övergången sker gradvis och inte abrupt.
+Detta innebär att kisel har ett indirekt bandgap och inte ett direkt bandgap.
+
+Excitation av fononer är anledningen till att transmissionsspektrumet som visas i figur \ref{fig:transmissionsspektrum_b}.
+Nedgången i transmission kommer från multifononabsorption, där en foton absorberas och ger upphov till en eller flera fononer.
+Typiska fononfrekvenser visas i tabell \ref{tab:fononfrekvenser}.
+Om en foton skulle excitera en fonon i gren TA$_1$ vid symmetripunkt L och en fonon i gren TO$_2$ vid symmetripunkt X skulle den excitationsenergin som krävs motsvara
+
+\begin{equation}
+    E_\gamma = hf_1 + hf_2 = h(3,14 + 14,09) \cdot 10^{12} = 17,23h \cdot 10^{12}.
+\end{equation}
+Detta motsvarar en fotonvåglängd på 17,4 µm, vilket är exakt det vi ser i figur \ref{fig:transmissionsspektrum_b}.
+Transmissionen går alltså ned i våglängdsområdet 5 - 20 µm eftersom fotoner exciterar fononer, 
+och fononerna har kvantiserade energier som motsvarar dessa våglängder.
 \section{Slutsatser}
 
 Med hjälp av röntgendiffraktion kunde det okända ämnets kristallstruktur bestämmas till en FCC-struktur,
 och dess gitterparameter kunde bestämmas till $3,611 \pm 0,022 \; \text{Å}$.
 Detta gör att ämnet kunde bestämmas till koppar, 
 vars kristallstruktur är känd som FCC och dess gitterparameter är känd som 3,61 Å.
-Dessa resultat ses som tillförlitliga på grund av den resulterande låga felmarginalen i mätningarna.
+Den resulterade heltalsserien hade avvikelser från den teoretiska heltalsserien.
+Detta tros bero på den begränsade mängden mätdata som i sig kom sig av flertalet misslyckade mätningar.
+Det resulterande värdet för gitterparametern får dock ses som tillförlitligt på grund av den resulterande låga felmarginalen.
 
-Med hjälp av transmissionsspektrum kunde bandgapet för kisel bestämmas till ca 1,12 eV.
+Med hjälp av transmissionsspektrum kunde bandgapet för kisel bestämmas till ca 1,19 eV, vilket är nära det tabulerade värdet på 1,12 eV.
 Eftersom transmissionsspektrumet inte betedde sig som en stegfunktion vid bandgapet utan uppvisade ett mer gradvis avtagande av transmissionen 
 kunde slutsatsen dras att kisel har ett indirekt bandgap och inte ett direkt bandgap.
 
+Nedgången i transmission som observeras i våglängdsområdet 5 - 20 µm beror på multifononabsorption, 
+där fotoner det våglängdsområdet exciterar en eller flera fononer.
+
 \newpage
+
 \printbibliography
+
 \newpage
 
 \appendix

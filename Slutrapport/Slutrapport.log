@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.9)  24 MAR 2026 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.9)  25 MAR 2026 13:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -837,41 +837,56 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [3]
 
 [4]
-<../Förstudie/Bilder/Debye.Scherrer_kamera.png, id=107, 179.92218pt x 82.80937pt>
+<Bilder/dispersionsrelation_kisel.jpg, id=109, 252.7844pt x 158.6728pt>
+File: Bilder/dispersionsrelation_kisel.jpg Graphic file (type jpg)
+<use Bilder/dispersionsrelation_kisel.jpg>
+Package pdftex.def Info: Bilder/dispersionsrelation_kisel.jpg  used on input line 182.
+(pdftex.def)             Requested size: 318.66948pt x 200.03047pt.
+
+
+[5 <./Bilder/dispersionsrelation_kisel.jpg>]
+<../Förstudie/Bilder/Debye.Scherrer_kamera.png, id=131, 179.92218pt x 82.80937pt>
 File: ../Förstudie/Bilder/Debye.Scherrer_kamera.png Graphic file (type png)
 <use ../Förstudie/Bilder/Debye.Scherrer_kamera.png>
-Package pdftex.def Info: ../Förstudie/Bilder/Debye.Scherrer_kamera.png  used on input line 189.
+Package pdftex.def Info: ../Förstudie/Bilder/Debye.Scherrer_kamera.png  used on input line 244.
 (pdftex.def)             Requested size: 364.19667pt x 167.63623pt.
 
 
-[5 <../Förstudie/Bilder/Debye.Scherrer_kamera.png>]
-<Bilder/Intensitetsfördelning med bottnar.png, id=117, 462.528pt x 346.896pt>
+[6 <../Förstudie/Bilder/Debye.Scherrer_kamera.png>]
+<Bilder/Intensitetsfördelning med bottnar.png, id=140, 462.528pt x 346.896pt>
 File: Bilder/Intensitetsfördelning med bottnar.png Graphic file (type png)
 <use Bilder/Intensitetsfördelning med bottnar.png>
-Package pdftex.def Info: Bilder/Intensitetsfördelning med bottnar.png  used on input line 230.
+Package pdftex.def Info: Bilder/Intensitetsfördelning med bottnar.png  used on input line 285.
 (pdftex.def)             Requested size: 341.43307pt x 256.08499pt.
 
 
-[6 <./Bilder/Intensitetsfördelning med bottnar.png>]
-<Bilder/Transmissionsspektra Medel Cary 5000.png, id=134, 462.528pt x 346.896pt>
+[7]
+<Bilder/Transmissionsspektra Medel Cary 5000.png, id=156, 462.528pt x 346.896pt>
 File: Bilder/Transmissionsspektra Medel Cary 5000.png Graphic file (type png)
 <use Bilder/Transmissionsspektra Medel Cary 5000.png>
-Package pdftex.def Info: Bilder/Transmissionsspektra Medel Cary 5000.png  used on input line 268.
+Package pdftex.def Info: Bilder/Transmissionsspektra Medel Cary 5000.png  used on input line 325.
 (pdftex.def)             Requested size: 204.85846pt x 153.6457pt.
-<Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png, id=135, 462.528pt x 346.896pt>
+<Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png, id=157, 462.528pt x 346.896pt>
 File: Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png Graphic file (type png)
 <use Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png>
-Package pdftex.def Info: Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png  used on input line 274.
+Package pdftex.def Info: Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png  used on input line 332.
 (pdftex.def)             Requested size: 204.85846pt x 153.6457pt.
 
 
-[7 <./Bilder/Transmissionsspektra Medel Cary 5000.png> <./Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png>]
+[8 <./Bilder/Intensitetsfördelning med bottnar.png>]
+Overfull \hbox (0.43065pt too wide) in paragraph at lines 356--359
+[]\T1/cmr/m/n/12 Gitterparametern kun-de dock be-st�m-mas med gans-ka god pre-ci-sion, ef-tersom lin-j�r regres-
+ []
 
-[8]
 
-[9]
 
-[10] (Slutrapport.aux)
+[9 <./Bilder/Transmissionsspektra Medel Cary 5000.png> <./Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png>]
+
+[10]
+
+[11]
+
+[12] (Slutrapport.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -883,17 +898,17 @@ Package logreq Info: Writing requests to 'Slutrapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28046 strings out of 473523
- 535016 string characters out of 5714631
- 1334909 words of memory out of 5000000
- 50908 multiletter control sequences out of 15000+600000
- 574267 words of font info for 70 fonts, out of 8000000 for 9000
+ 28084 strings out of 473523
+ 536048 string characters out of 5714631
+ 1335977 words of memory out of 5000000
+ 50935 multiletter control sequences out of 15000+600000
+ 575279 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,131p,953b,1536s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Slutrapport.pdf (10 pages, 347294 bytes).
+ 83i,11n,131p,953b,1536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Slutrapport.pdf (12 pages, 829421 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 614 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

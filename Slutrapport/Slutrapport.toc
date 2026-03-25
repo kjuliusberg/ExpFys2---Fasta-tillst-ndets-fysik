@@ -1,10 +1,10 @@
 \babel@toc {swedish}{}\relax 
 \contentsline {section}{\numberline {1}Inledning}{3}{section.1}%
 \contentsline {section}{\numberline {2}Teori}{3}{section.2}%
-\contentsline {section}{\numberline {3}Metod}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Försöksuppställning}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Genomförande}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Resultat}{6}{section.4}%
-\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}%
-\contentsline {section}{\numberline {6}Slutsatser}{7}{section.6}%
-\contentsline {section}{\numberline {A}Beräkning av felmarginal för gitterparameter}{10}{appendix.A}%
+\contentsline {section}{\numberline {3}Metod}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Försöksuppställning}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Genomförande}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Resultat}{7}{section.4}%
+\contentsline {section}{\numberline {5}Diskussion}{9}{section.5}%
+\contentsline {section}{\numberline {6}Slutsatser}{10}{section.6}%
+\contentsline {section}{\numberline {A}Beräkning av felmarginal för gitterparameter}{12}{appendix.A}%
