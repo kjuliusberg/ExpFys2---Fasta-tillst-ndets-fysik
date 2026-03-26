@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.18)  25 MAR 2026 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.18)  26 MAR 2026 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -871,157 +871,158 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write6
 \openout6 = `Slutrapport.toc'.
 
- [2] [3] [4]
-<Bilder/dispersionsrelation_kisel.jpg, id=142, 252.7844pt x 158.6728pt>
-File: Bilder/dispersionsrelation_kisel.jpg Graphic file (type jpg)
-<use Bilder/dispersionsrelation_kisel.jpg>
-Package pdftex.def Info: Bilder/dispersionsrelation_kisel.jpg  used on input line 205.
-(pdftex.def)             Requested size: 318.66948pt x 200.03047pt.
- [5 <./Bilder/dispersionsrelation_kisel.jpg>]
-<../Förstudie/Bilder/Debye.Scherrer_kamera.png, id=165, 179.92218pt x 82.80937pt>
+ [2] [3]
+<../Förstudie/Bilder/Debye.Scherrer_kamera.png, id=123, 179.92218pt x 82.80937pt>
 File: ../Förstudie/Bilder/Debye.Scherrer_kamera.png Graphic file (type png)
 <use ../Förstudie/Bilder/Debye.Scherrer_kamera.png>
-Package pdftex.def Info: ../Förstudie/Bilder/Debye.Scherrer_kamera.png  used on input line 272.
+Package pdftex.def Info: ../Förstudie/Bilder/Debye.Scherrer_kamera.png  used on input line 166.
 (pdftex.def)             Requested size: 364.19667pt x 167.63623pt.
-<Bilder/prov_i_perkin_elmer_closeup.jpg, id=168, 642.4pt x 481.8pt>
-File: Bilder/prov_i_perkin_elmer_closeup.jpg Graphic file (type jpg)
-<use Bilder/prov_i_perkin_elmer_closeup.jpg>
-Package pdftex.def Info: Bilder/prov_i_perkin_elmer_closeup.jpg  used on input line 282.
-(pdftex.def)             Requested size: 227.62206pt x 170.71304pt.
- [6 <../Förstudie/Bilder/Debye.Scherrer_kamera.png>]
-<Bilder/prov i kamera_närbild.jpg, id=176, 2276.505pt x 2457.18pt>
+ [4 <../Förstudie/Bilder/Debye.Scherrer_kamera.png>]
+<Bilder/dispersionsrelation_kisel.jpg, id=143, 252.7844pt x 158.6728pt>
+File: Bilder/dispersionsrelation_kisel.jpg Graphic file (type jpg)
+<use Bilder/dispersionsrelation_kisel.jpg>
+Package pdftex.def Info: Bilder/dispersionsrelation_kisel.jpg  used on input line 211.
+(pdftex.def)             Requested size: 318.66948pt x 200.03047pt.
+ [5]
+<Bilder/prov i kamera_närbild.jpg, id=166, 2276.505pt x 2457.18pt>
 File: Bilder/prov i kamera_närbild.jpg Graphic file (type jpg)
 <use Bilder/prov i kamera_närbild.jpg>
-Package pdftex.def Info: Bilder/prov i kamera_närbild.jpg  used on input line 306.
+Package pdftex.def Info: Bilder/prov i kamera_närbild.jpg  used on input line 277.
 (pdftex.def)             Requested size: 150.23138pt x 162.12189pt.
-<Bilder/film2-1.jpg, id=178, 901.11656pt x 1541.76pt>
+ [6 <./Bilder/dispersionsrelation_kisel.jpg>]
+<Bilder/prov_i_perkin_elmer_closeup.jpg, id=174, 642.4pt x 481.8pt>
+File: Bilder/prov_i_perkin_elmer_closeup.jpg Graphic file (type jpg)
+<use Bilder/prov_i_perkin_elmer_closeup.jpg>
+Package pdftex.def Info: Bilder/prov_i_perkin_elmer_closeup.jpg  used on input line 288.
+(pdftex.def)             Requested size: 227.62206pt x 170.71304pt.
+<Bilder/film2-1.jpg, id=177, 901.11656pt x 1541.76pt>
 File: Bilder/film2-1.jpg Graphic file (type jpg)
 <use Bilder/film2-1.jpg>
-Package pdftex.def Info: Bilder/film2-1.jpg  used on input line 318.
+Package pdftex.def Info: Bilder/film2-1.jpg  used on input line 316.
 (pdftex.def)             Requested size: 150.23138pt x 257.03778pt.
- [7 <./Bilder/prov_i_perkin_elmer_closeup.jpg> <./Bilder/prov i kamera_närbild.jpg>]
-<Bilder/Intensitetsfördelning med bottnar.png, id=189, 462.528pt x 346.896pt>
+ [7 <./Bilder/prov i kamera_närbild.jpg> <./Bilder/prov_i_perkin_elmer_closeup.jpg>]
+<Bilder/Intensitetsfördelning med bottnar.png, id=186, 462.528pt x 346.896pt>
 File: Bilder/Intensitetsfördelning med bottnar.png Graphic file (type png)
 <use Bilder/Intensitetsfördelning med bottnar.png>
-Package pdftex.def Info: Bilder/Intensitetsfördelning med bottnar.png  used on input line 335.
+Package pdftex.def Info: Bilder/Intensitetsfördelning med bottnar.png  used on input line 333.
 (pdftex.def)             Requested size: 341.43307pt x 256.08499pt.
  [8 <./Bilder/film2-1.jpg>] [9 <./Bilder/Intensitetsfördelning med bottnar.png>]
-<Bilder/Transmissionsspektra Medel Cary 5000.png, id=213, 462.528pt x 346.896pt>
+<Bilder/Transmissionsspektra Medel Cary 5000.png, id=212, 462.528pt x 346.896pt>
 File: Bilder/Transmissionsspektra Medel Cary 5000.png Graphic file (type png)
 <use Bilder/Transmissionsspektra Medel Cary 5000.png>
-Package pdftex.def Info: Bilder/Transmissionsspektra Medel Cary 5000.png  used on input line 376.
+Package pdftex.def Info: Bilder/Transmissionsspektra Medel Cary 5000.png  used on input line 375.
 (pdftex.def)             Requested size: 223.07211pt x 167.30745pt.
-<Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png, id=214, 462.528pt x 346.896pt>
+<Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png, id=213, 462.528pt x 346.896pt>
 File: Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png Graphic file (type png)
 <use Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png>
-Package pdftex.def Info: Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png  used on input line 383.
+Package pdftex.def Info: Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png  used on input line 382.
 (pdftex.def)             Requested size: 223.07211pt x 167.30745pt.
-
-Overfull \hbox (0.43065pt too wide) in paragraph at lines 409--412
+ [10 <./Bilder/Transmissionsspektra Medel Cary 5000.png> <./Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png>]
+Overfull \hbox (0.43065pt too wide) in paragraph at lines 408--411
 []\T1/cmr/m/n/12 Gitterparametern kun-de dock be-st�m-mas med gans-ka god pre-ci-sion, ef-tersom lin-j�r regres-
  []
 
-[10 <./Bilder/Transmissionsspektra Medel Cary 5000.png> <./Bilder/Transmissionsspektra Medel Perkin Elmer 1725.png>] [11] [12] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+[11] [12] [13] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
-) [13]
+) [14]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 507.
- [14] [15] [16] [17] [18]
-Overfull \hbox (87.5936pt too wide) in paragraph at lines 771--772
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 506.
+ [15] [16] [17] [18] [19]
+Overfull \hbox (87.5936pt too wide) in paragraph at lines 770--771
 [][][][][][][][][][][][][][][][][][] 
  []
 
-[19]
-<Labblogg Fasta Tillståndets Fysik.pdf, id=574, 596.2275pt x 847.165pt>
+[20]
+<Labblogg Fasta Tillståndets Fysik.pdf, id=577, 596.2275pt x 847.165pt>
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf  used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf  used on input line 833.
 (pdftex.def)             Requested size: 596.22604pt x 847.16292pt.
-<Labblogg Fasta Tillståndets Fysik.pdf, id=576, page=1, 596.2275pt x 847.165pt>
+<Labblogg Fasta Tillståndets Fysik.pdf, id=579, page=1, 596.2275pt x 847.165pt>
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 1>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 833.
 (pdftex.def)             Requested size: 596.22604pt x 847.16292pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 1>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
- [20] [21]
+ [21]
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 1>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 839.
-(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
-File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
-<use Labblogg Fasta Tillståndets Fysik.pdf, page 1>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 1>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 833.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
+<use Labblogg Fasta Tillståndets Fysik.pdf, page 1>
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page1 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
  [22
 
  <./Labblogg Fasta Tillståndets Fysik.pdf>]
-<Labblogg Fasta Tillståndets Fysik.pdf, id=632, page=2, 596.2275pt x 847.165pt>
+<Labblogg Fasta Tillståndets Fysik.pdf, id=626, page=2, 596.2275pt x 847.165pt>
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 2>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page2 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page2 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 2>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page2 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page2 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 2>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page2 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page2 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
  [23
 
  <./Labblogg Fasta Tillståndets Fysik.pdf>]
-<Labblogg Fasta Tillståndets Fysik.pdf, id=638, page=3, 596.2275pt x 847.165pt>
+<Labblogg Fasta Tillståndets Fysik.pdf, id=632, page=3, 596.2275pt x 847.165pt>
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 3>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page3 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page3 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 3>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page3 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page3 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 3>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page3 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page3 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
  [24
 
  <./Labblogg Fasta Tillståndets Fysik.pdf>]
-<Labblogg Fasta Tillståndets Fysik.pdf, id=644, page=4, 596.2275pt x 847.165pt>
+<Labblogg Fasta Tillståndets Fysik.pdf, id=638, page=4, 596.2275pt x 847.165pt>
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 4>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page4 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page4 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 4>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page4 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page4 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 4>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page4 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page4 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
  [25
 
  <./Labblogg Fasta Tillståndets Fysik.pdf>]
-<Labblogg Fasta Tillståndets Fysik.pdf, id=651, page=5, 596.2275pt x 847.165pt>
+<Labblogg Fasta Tillståndets Fysik.pdf, id=645, page=5, 596.2275pt x 847.165pt>
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 5>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page5 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page5 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 5>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page5 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page5 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
 File: Labblogg Fasta Tillståndets Fysik.pdf Graphic file (type pdf)
 <use Labblogg Fasta Tillståndets Fysik.pdf, page 5>
-Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page5 used on input line 839.
+Package pdftex.def Info: Labblogg Fasta Tillståndets Fysik.pdf , page5 used on input line 833.
 (pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
  [26
 
@@ -1037,18 +1038,18 @@ Package logreq Info: Writing requests to 'Slutrapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29915 strings out of 467525
- 557196 string characters out of 5423209
- 1513775 words of memory out of 5000000
+ 29910 strings out of 467525
+ 557121 string characters out of 5423209
+ 1513774 words of memory out of 5000000
  58078 multiletter control sequences out of 15000+600000
  646025 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,17n,131p,835b,2917s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Slutrapport.pdf (26 pages, 3599408 bytes).
+Output written on Slutrapport.pdf (26 pages, 3598993 bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
- 725 compressed objects within 8 object streams
- 402 named destinations out of 1000 (max. 500000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 719 compressed objects within 8 object streams
+ 397 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

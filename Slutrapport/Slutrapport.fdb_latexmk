@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Slutrapport"] 0 "Slutrapport.bcf" "Slutrapport.bbl" "Slutrapport" 1774470351.82012 -1
+["biber Slutrapport"] 1774528218.38297 "Slutrapport.bcf" "Slutrapport.bbl" "Slutrapport" 1774530236.37692 0
   "../references.bib" 1774445069 1645 3188f390b718f3f1ad46dcafa4fad905 ""
-  "Slutrapport.bcf" 1774470351 108543 2dd5871a6228441faf178aec944ccb1d "pdflatex"
+  "Slutrapport.bcf" 1774530236 108606 e1cd974012ca6159d69597710ab3ad61 "pdflatex"
   (generated)
   "Slutrapport.bbl"
   "Slutrapport.blg"
   (rewritten before read)
-["pdflatex"] 1774470348.64847 "c:/Users/bengu/OneDrive - Chalmers/CHALMERS KURSER/EXPFYS 2/FASTA TILLSTÅNDETS FYSIK/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" "Slutrapport.pdf" "Slutrapport" 1774470351.82121 0
+["pdflatex"] 1774530233.1754 "c:/Users/bengu/OneDrive - Chalmers/CHALMERS KURSER/EXPFYS 2/FASTA TILLSTÅNDETS FYSIK/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" "Slutrapport.pdf" "Slutrapport" 1774530236.37788 0
   "../Förstudie/Bilder/Debye.Scherrer_kamera.png" 1774204075 31441 cc5a836dafc7fe1c97a3fbaf1eb0588c ""
   "Bilder/Intensitetsfördelning med bottnar.png" 1774204075 35272 84559f6b331edf4e2b629b97a8499675 ""
   "Bilder/Transmissionsspektra Medel Cary 5000.png" 1774470310 37433 5aba7a6644a69fc22d3c7c37fb81ace1 ""
@@ -16,13 +16,13 @@
   "Bilder/prov i kamera_närbild.jpg" 1774462029 839062 12f3639ac56e246be70dc21dfe922527 ""
   "Bilder/prov_i_perkin_elmer_closeup.jpg" 1774445069 47737 fa4c5e35fa3b3702ee8194f305b53f3b ""
   "Labblogg Fasta Tillståndets Fysik.pdf" 1774204075 1528134 568adb30a2f4cb7733acb38e3737a3e8 ""
-  "Slutrapport.aux" 1774470351 11523 1a1905dadf263f6b133a776cda02722d "pdflatex"
-  "Slutrapport.bbl" 1774464440 9153 c2e7f192a163f20f2f2e09e154d2351d "biber Slutrapport"
-  "Slutrapport.out" 1774470351 2381 fb9a6ff8aecef787497aabff331bc965 "pdflatex"
-  "Slutrapport.run.xml" 1774470351 2454 72f8aee60c418a88206b0d1102b39f4e "pdflatex"
-  "Slutrapport.tex" 1774470077 43537 c040a3a7fd8b1ba0ebf5ab6cf9beb96b ""
-  "Slutrapport.toc" 1774470351 1258 e339dd7edb9ce8800573fc19b9957070 "pdflatex"
-  "c:/Users/bengu/OneDrive - Chalmers/CHALMERS KURSER/EXPFYS 2/FASTA TILLSTÅNDETS FYSIK/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" 1774470077 43537 c040a3a7fd8b1ba0ebf5ab6cf9beb96b ""
+  "Slutrapport.aux" 1774530236 11576 bc34c24bebcbf98f297c77cfbe8e27d9 "pdflatex"
+  "Slutrapport.bbl" 1774528243 9153 0c6ae9ad569a21c7b9670a0d61d03717 "biber Slutrapport"
+  "Slutrapport.out" 1774530236 2381 fb9a6ff8aecef787497aabff331bc965 "pdflatex"
+  "Slutrapport.run.xml" 1774530236 2454 72f8aee60c418a88206b0d1102b39f4e "pdflatex"
+  "Slutrapport.tex" 1774530232 43605 52d9065ce09019966bc053f0ae0d283f ""
+  "Slutrapport.toc" 1774530236 1258 070aeac314181d5698e3217c24162415 "pdflatex"
+  "c:/Users/bengu/OneDrive - Chalmers/CHALMERS KURSER/EXPFYS 2/FASTA TILLSTÅNDETS FYSIK/ExpFys2---Fasta-tillst-ndets-fysik/Slutrapport/Slutrapport.tex" 1774530232 43605 52d9065ce09019966bc053f0ae0d283f ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1773862047 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1773862047 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1773863587 3524 cb3e574dea2d1052e39280babc910dc8 ""

@@ -2,15 +2,15 @@
 \contentsline {section}{\numberline {1}Inledning}{3}{section.1}%
 \contentsline {section}{\numberline {2}Teori}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Kristallstrukturern och diffraktion}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Optisk transmission}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Optisk transmission}{5}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Metod}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Försöksuppställning}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Genomförande}{7}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Resultat}{8}{section.4}%
 \contentsline {section}{\numberline {5}Diskussion}{10}{section.5}%
 \contentsline {section}{\numberline {6}Slutsatser}{11}{section.6}%
-\contentsline {section}{\numberline {A}Beräkning av felmarginal för gitterparameter}{13}{appendix.A}%
-\contentsline {section}{\numberline {B}Kod för data- och felanalys}{13}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Kod för data- och felanalys av gitterparameter}{14}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}Kod för data- och felanalys av transmissionsspektrum}{19}{subsection.B.2}%
+\contentsline {section}{\numberline {A}Beräkning av felmarginal för gitterparameter}{14}{appendix.A}%
+\contentsline {section}{\numberline {B}Kod för data- och felanalys}{14}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Kod för data- och felanalys av gitterparameter}{15}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Kod för data- och felanalys av transmissionsspektrum}{20}{subsection.B.2}%
 \contentsline {section}{\numberline {C}Labblogg}{21}{appendix.C}%

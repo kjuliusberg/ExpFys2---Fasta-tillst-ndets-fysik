@@ -315,27 +315,27 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT Slutrapport.toc
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
-INPUT ./Bilder/dispersionsrelation_kisel.jpg
-INPUT ./Bilder/dispersionsrelation_kisel.jpg
-INPUT ./Bilder/dispersionsrelation_kisel.jpg
-INPUT ./Bilder/dispersionsrelation_kisel.jpg
-INPUT ./Bilder/dispersionsrelation_kisel.jpg
+INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
+INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
+INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
+INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
+INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
-INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
-INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
-INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
-INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
-INPUT ../Förstudie/Bilder/Debye.Scherrer_kamera.png
-INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
-INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
-INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
-INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
-INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
+INPUT ./Bilder/dispersionsrelation_kisel.jpg
+INPUT ./Bilder/dispersionsrelation_kisel.jpg
+INPUT ./Bilder/dispersionsrelation_kisel.jpg
+INPUT ./Bilder/dispersionsrelation_kisel.jpg
+INPUT ./Bilder/dispersionsrelation_kisel.jpg
 INPUT ./Bilder/prov i kamera_närbild.jpg
 INPUT ./Bilder/prov i kamera_närbild.jpg
 INPUT ./Bilder/prov i kamera_närbild.jpg
 INPUT ./Bilder/prov i kamera_närbild.jpg
 INPUT ./Bilder/prov i kamera_närbild.jpg
+INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
+INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
+INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
+INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
+INPUT ./Bilder/prov_i_perkin_elmer_closeup.jpg
 INPUT ./Bilder/film2-1.jpg
 INPUT ./Bilder/film2-1.jpg
 INPUT ./Bilder/film2-1.jpg

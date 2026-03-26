@@ -77,7 +77,7 @@ Därefter bestrålades provet under 40 minuter av en röntgenstråle.
 Denna röntgenstråle diffrakterades och avbildades på en röntgenfilm som senare framkallades och avståndet mellan de diffrakterade reflexerna mättes.
 Totalt genomfördes 3 mätningar och det okända grundämnet kunde konstateras ha en FCC-struktur med en gitterparameter på 3,61 Å.
 Dessa värden stämmer väl överens med tabulerade värden för koppar, vilket grundämnet kunde identifieras som.
-Därefter struderades transmissionsspektrum av kisel. 
+Därefter studerades transmissionsspektrum av kisel. 
 Utifrån uppmätt transmissionsspektrum kunde kisel bekräftas ha ett indirekt bandgap på ca 1,19 eV
 och fononabsorption i våglängdsområdet 5 - 20 µm.
 
@@ -93,17 +93,17 @@ och fononabsorption i våglängdsområdet 5 - 20 µm.
 
 Varje kristallint material har en kristallstruktur som beskriver hur atomerna i kristallen är ordnade. 
 Strukturen bestämmer också flera av kristallens egenskaper, exempelvis packningsdensitet eller vilka reflexer som är tillåtna under diffraktion\cite{Hofmann}. 
-Denna förstudie presenterar en metod för att bestämma ett okänt grundämnes kristallstruktur och gitterparamater, med målet att specificera vilket grundämne som studeras.
+Laborationen presenterar en metod för att bestämma ett okänt grundämnes kristallstruktur och gitterparamater, med målet att specificera vilket grundämne som studeras.
 
 Då ett ämne bestrålas av fotoner kan elektroner i ämnet exiteras genom att absorbera en foton med tillräckligt hög energi. 
 Intensiteten på den strålning som passerar genom materialet minskar därmed. 
 Genom att variera våglängden på den inkommande strålningen och mäta hur stor andel av intensiteten som passerar materialet kan ett transmissionsspektrum bildas\cite{Transmission}. 
-Denna förstudie presenterar därmed också ett sätt att mäta transmissionsspektrumet för kisel.
+Denna laboration presenterar därmed också ett sätt att mäta transmissionsspektrumet för kisel.
 
 \section{Teori}
 % Kristallstrukturer generellt (kanske inledning)
 
-Nedan readovisas för den här laborationen relavant teori.
+Nedan redovisas relavant teori för laborationen.
 Detta inkluderar grundämnens kristallstruktur, diffraktionsvillkor samt optisk transmission.
 Även elektron- och fononexcitation diskuteras.
 
@@ -130,11 +130,12 @@ Genom interferens mellan reflexerna uppstår ett diffraktionsmönster. För att 
     2d\sin(\theta) = n\lambda,
     \label{Eq: Braggs lag}
 \end{equation}
-där $d$ är avståndet mellan atomplanen, $\theta$ är den vinkel ingående och utgående stråla bildar med kristallplanen och $\lambda$ är strålningens våglängd. Det är däremot möjligt att reflexer som uppfyller Braggs lag inte ger konstruktiv interferens. Detta beror på ämnets kristallstruktur och dess strukturfaktor, $S_{hkl}$, som definieras enligt
+där $d$ är avståndet mellan atomplanen, $\theta$ är den vinkel ingående och utgående strålar bildar med kristallplanen och $\lambda$ är strålningens våglängd. Det är däremot möjligt att reflexer som uppfyller Braggs lag inte ger konstruktiv interferens. Detta beror på ämnets kristallstruktur och dess strukturfaktor, $S_{hkl}$, som definieras enligt
 \begin{equation}
     S_{hkl} = \sum_j f_j e^{2\pi i \vec G \cdot \vec r},
 \end{equation}
-där $\vec G$ är den reciproka gittervektorn, $\vec r$ är ortsvektorn för samtliga atomer i enhetscellen, och $f_j$ är respektive atoms formfaktor. Beroende på den kristallstruktur som bestrålas kommer specifika $hkl$ ge en strukturfaktor som är identisk lika med 0, vilket korresponderar till en förbjuden reflex. 
+där $\vec G$ är den reciproka gittervektorn, $\vec r$ är ortsvektorn för samtliga atomer i enhetscellen, och $f_j$ är respektive atoms formfaktor. Beroende på den kristallstruktur som bestrålas kommer specifika $hkl$ ge en strukturfaktor som är identisk lika med 0, vilket korresponderar till en förbjuden reflex och inte ger konstruktiv interferens. 
+Olika kristallstrukturer medför olika tillåtna och förbjudna reflexer. Exempelvis gäller för koppar, med gitterparameter $a=3,61$ Å, och en FCC-struktur att $h,k,l$ alla måste vara udda jämna\cite{Hofmann}.  
 
 En metod för att deducera vilken kristallstruktur ett ämne består av är Debye-Sherrer-metoden, som grundar sig i att alla kristallstrukturer har olika tillåtna och förbjudna reflexer. Genom att låta ett fint pulveriserat prov bestrålas av röntgenstrålning erhålls med hjälp av en Debye-Sherrer-kamera ett cirkulärt diffraktionsmönster på en film, se figur \ref{fig:Debye_Scherrer_kamera}, och $\theta$ kan då beräknas enligt 
  \begin{equation}
@@ -157,13 +158,18 @@ där $a$ är gitterparametern. Genom insättning av \ref{Eq: d-kubisk} i \ref{Eq
     \label{Eq: Heltalsserie}
 \end{equation}
 Då $h,k,l$ är heltal kommer alltså $\sin^2(\theta)$ vara proportionerlig till en heltalsserie. 
-Genom att beräkna $\theta$ för alla ringar på kamera-filmen och normalisera dessa erhålls alltså en heltalsserie, 
-som kan matchas med kända serier för att utesluta vissa kristallstrukturer. 
-Om strukturen inte skulle vara kubisk gäller däremot inte \ref{Eq: d-kubisk}, och \ref{Eq: Heltalsserie} antar en annan form. 
-Däremot kan en liknande princip användas\cite{X-raylabbPM}.
+Genom att beräkna $\theta$ för alla ringar på kamera-filmen och normalisera dessa erhålls alltså ideelt en heltalsserie, 
+som kan jämföras med kända serier för att utesluta vissa kristallstrukturer\cite{X-raylabbPM}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{../Förstudie/Bilder/Debye.Scherrer_kamera.png}
+    \caption{\textit{Schematisk bild över en Debye-Scherrer-kamera. En infallande röntgenstråle träffar ett prov placerat i mitten. Provets kristallstruktur ger upphov till diffrakterande strålar som avbildar insidan av en cylinder, på vilken en röntgenfilm är placerad. Denna röntgenfilm kan efteråt framkallas och avstånden mellan de diffrakterande strålarna mätas.}}
+    \label{fig:Debye_Scherrer_kamera}
+\end{figure}
 
 Då kristallstrukturen är känd är även tillåtna och förbjudna reflexer kända. 
-Genom att matcha varje ring till en uppsättning $hkl$ kan $a$ lösas ut och beräknas från \ref{Eq: Heltalsserie}.
+Genom att jämföra varje ring till en uppsättning $hkl$ kan $a$ lösas ut och beräknas från \ref{Eq: Heltalsserie}.
 
 \subsection{Optisk transmission}
 
@@ -264,17 +270,17 @@ För att bestämma det okända grundämnet användes en Debye-Scherrer-kamera av
 För att generera en bild av diffraktionsmönstret så sprids diffraktionsstrålarna inuti kameran på insidan av en cylinder, på vilken en röntgenfilm monterades. 
 Då Debye-Scherrer-metoden kräver att ett prov bestrålas med röntgenstrålning används även en röntgengenerator, 
 i det här fallet en Siemens Kristalloflex 710. 
-En schematisk bild över försöksuppställningen visas i figur \ref{fig:Debye_Scherrer_kamera}, där man kan se en infallande röntgenstråle träffa ett prov placerat i mitten. 
-Diffraktionsstrålarna avbildas därefter på röntgenfilmen.
+En bild över försöksuppställningen visas i figur \ref{fig:prov_i_kamera}, där visas ett kapillärrör i en Debye-Sherrerkamera.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{../Förstudie/Bilder/Debye.Scherrer_kamera.png}
-    \caption{\textit{Schematisk bild över en Debye-Scherrer-kamera. En infallande röntgenstråle träffar ett prov placerat i mitten. Provets kristallstruktur ger upphov till diffrakterande strålar som avbildar insidan av en cylinder, på vilken en röntgenfilm är placerad. Denna röntgenfilm kan efteråt framkallas och avstånden mellan de diffrakterande strålarna mätas.}}
-    \label{fig:Debye_Scherrer_kamera}
+    \includegraphics[width=0.33\textwidth]{Bilder/prov i kamera_närbild.jpg}
+    \caption{\textit{Debye-Sherrer kamera med monterat kapillärrör som innehåller ett nedfilat, okänt grundämne. 
+    Provet monterades i en hållare som långsamt roterades under hela mätningen.}}
+    \label{fig:prov_i_kamera}
 \end{figure}
 
-För att bestämma transmissionsspektrumet av kisel används ett färdigt kiselprov, en spektrofotometer av modell Cary 5000 och en spektrofotometer av modell Perkin Elmer 1725. 
+För att bestämma transmissionsspektrumet av kisel användes ett färdigt kiselprov, en spektrofotometer av modell Cary 5000 och en spektrofotometer av modell Perkin Elmer 1725. 
 Ett kiselprov placerades i mitten av en hållare som sedan placerades i spektrofotometern.
 Figur \ref{fig:prov_i_perkin_elmer} visar kiselprovet placerat inuti Perkin-Elmer-spektrofotometern.
 \begin{figure}[ht]
@@ -301,14 +307,6 @@ Först bestämdes det okända grundämnet med hjälp av Debye-Sherrermetoden. Et
 Provet placerades i en hållare som roterade röret under hela mätningen. Därefter slogs hål i en röntgenfilm som också monterades på insidan av 
 kameran. Detta upprepades sedan fyra gånger tills alla fyra kameror var fyllda.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.33\textwidth]{Bilder/prov i kamera_närbild.jpg}
-    \caption{\textit{Debye-Sherrer kamera med monterat kapillärrör som innehåller ett nedfilat, okänt, grundämne. 
-    Provet monterades i en hållare som långsamt roterades under hela mätningen.}}
-    \label{fig:prov_i_kamera}
-\end{figure}
-
 Under 40 minuter bestrålades kapillärröret av röntgenstrålning. Då röret roterades under förloppet erhölls ett diffraktionsmönster bestående av ringar i stället för enskillda punkter.
 Röntgenfilmen togs ut och behandlades med fixering och framkallningsvätska innan den hängdes på tork. Efter att filmen torkat togs bilder över ett ljusbord av varje film, ett exempel visas i figur \ref{fig:film2-1}.
 Totalt erhölls tre filmer som visade ett diffraktionsmönster.
@@ -326,7 +324,7 @@ maximera det totala spektrumet. I Cary 5000 mättes transmissionsspektrumet öve
 
 \section{Resultat}
 Totalt erhölls tre lyckade filmer där diffraktionslinjerna var tydliga nog för mätning. 
-Dessa behandlades sedan digitalt för större precision, för full beräkning och kod, se appendix \ref{app:felmarg_gitterparameter} och \ref{app:kod-debye-sherrer}. 
+Dessa behandlades sedan digitalt för större precision, för full beräkning och kod, se appendix \ref{app:kod-debye-sherrer}. 
 För varje bild hittades de två hålen som filmen fästes i kameran med och en intensitetsfördelning skapades i en linje mellan hålen.
 Därefter bildades ett medelvärde av intensitetsfördelningen mellan alla bilder och genom att använda $\texttt{numpy.find\_peaks}$ hittades samtliga
 intensitetsbottnar som korresponderar med ringarna på filmen. Den medelvärderade intensitetsfördelningen visas i figur \ref{fig:Intensitetsfördelning}. 
@@ -358,16 +356,17 @@ $\lambda$ och $R$ var givna som $\lambda = 1,542$ Å och $2R = 57,8$ cm. Serien 
 \begin{equation}
     3,28; \ 4,24; \ 8,48; \ 11,55; \ 12,20; \ 15,22; \ 19,13; \ 20,0,
 \end{equation}
-vilket matchar de reflexer som förväntas finnas i en FCC struktur. Gitterparametern beräknades sedan genom att betrakta \ref{Eq: Heltalsserie} som en linjär relation 
+vilket stämmer överens med de reflexer som förväntas erhållas för en FCC struktur. Gitterparametern beräknades sedan genom att betrakta \ref{Eq: Heltalsserie} som en linjär relation 
 mellan $\sin^2\theta$ och $(h^2+k^2+l^2)$. Linjär regression utfördes och lutningen, som motsvarar konstanten $(\lambda/2a)^2$, bestämdes. För utförligare beräkning av felmarginal, 
 se appendix \ref{app:felmarg_gitterparameter}. Från detta kunde sedan gitterparametern bestämmas till
 \begin{equation}
     a = 3,611 \pm 0,022 \text{ Å},
 \end{equation}
-vilket matchar redan känt värde och struktur för koppar.
+vilket stämmer överens med redan känt värde och struktur för koppar.
 
-Därefter bestämdes transmissionsspektrumet för kisel med två spektrometrar, Parkin Elmer och Cary 5000. För båda maskinerna erhölls 5 transmissionsspektrum som sedan medelvärderades
-och visas tillsammans med dess medelfel i figur \ref{fig:Transmissionsspektrum}. 
+Därefter bestämdes transmissionsspektrumet för kisel med två spektrometrar, Parkin Elmer och Cary 5000. För båda maskinerna erhölls 5 transmissionsspektrum som sedan medelvärderades.
+Även medelfelet beräknades genom att ta standardavvikelsen för samtliga spektra och dela med antalet spektra som erhölls. 
+Den medelvärderade transmissionsspektrat visas tillsammans med dess medelfel i figur \ref{fig:Transmissionsspektrum}. För full analyskod, se appendix \ref{app:kod-transmission}.
 
 \begin{figure}[H]
     \centering
@@ -461,13 +460,13 @@ där fotoner det våglängdsområdet exciterar en eller flera fononer.
 \label{app:felmarg_gitterparameter}
 Gitterparametern beräknades genom att utföra viktad linjär regression på uttrycket
 \begin{equation}
-    4\sin^2(\theta) = \left(\dfrac \lambda a\right)^2 (h^2+k^2+l^2)
+    4\sin^2(\theta) = \left(\dfrac \lambda {2a}\right)^2 (h^2+k^2+l^2)
 \end{equation}
 som kan betraktas som en linjär funktion enligt
 \begin{equation}
     y = k x + m,
 \end{equation}
-där $y = 4\sin^2(\theta)$ och $x = (h^2+k^2+l^2)$. För detta användes $\texttt{numpy.polyfit}$ där konstanterna $k = \left(\dfrac \lambda a\right)^2$ och $m$ anpassades 
+där $y = 4\sin^2(\theta)$ och $x = (h^2+k^2+l^2)$. För detta användes $\texttt{numpy.polyfit}$ där konstanterna $k = \left(\dfrac \lambda {2a}\right)^2$ och $m$ anpassades 
 med minsta kvadratmetoden. De erhållna värdena viktades med vikterna $1/\sigma^2_{y}$, där $\sigma_{y}$ erhölls genom felfortplantning enligt 
 \begin{equation}
     \sigma_y = 8\sin\theta \cos\theta \sigma_\theta,
@@ -812,11 +811,6 @@ wavelengths_PE = datasets_PE[0]['nm']
 wavelengths_PE = wavelengths_PE[268:]
 T_values_PE = np.array([s['%T'].values for s in datasets_PE])
 T_values_PE = T_values_PE[:, 268:]
-
-# Troubleshooting plot
-# for i in range(len(T_values_PE)):
-#     plt.plot(wavelengths_PE, T_values_PE[i])
-#     plt.show()
 
 T_mean_PE = np.mean(T_values_PE, axis=0)
 T_std_PE = np.std(T_values_PE)
